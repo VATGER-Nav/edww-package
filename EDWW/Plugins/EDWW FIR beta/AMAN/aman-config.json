@@ -18,6 +18,30 @@
             "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
+         },
+        "EDDH 05": {
+            "targetFixes": [ "DH213", "DH231" ],
+            "viaFixes": [ "RIBSO", "BOGMU", "RARUP", "NOLGO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "EDDH" ]
+        },
+        "EDDH 15": {
+            "targetFixes": [ "DH434", "DH413" ],
+            "viaFixes": [ "RIBSO", "BOGMU", "RARUP", "NOLGO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "EDDH" ]
+        },
+        "EDDH 23": {
+            "targetFixes": [ "DH633", "DH613" ],
+            "viaFixes": [ "RIBSO", "BOGMU", "RARUP", "NOLGO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "EDDH" ]
+        },
+        "EDDH 33": {
+            "targetFixes": [ "DH812", "DH832" ],
+            "viaFixes": [ "RIBSO", "BOGMU", "RARUP", "NOLGO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "EDDH" ]
         },
         "...": {
             "targetFixes": [ "....", "...." ],
@@ -31,7 +55,7 @@
         "myLayout": [
             { "source": "assignedRunway", "width": 4 },
             { "source": "callsign", "width": 8 },
-            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "Â¤", "width": 2, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 5 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "remainingDistance", "width": 4, "rightAligned": true },

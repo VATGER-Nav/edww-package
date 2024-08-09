@@ -1,0 +1,15 @@
+MAP:Stands
+AIRPORT:ETNW
+FOLDER:Labels
+COLOR:labels-stand
+FONTSIZE:=:10
+ACTIVE:1
+
+ZOOM:500
+{% for name, geom in data.etnw_kml['StandLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
+
+{% for name, geom in data.etnw_kml['Stands Blue'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}

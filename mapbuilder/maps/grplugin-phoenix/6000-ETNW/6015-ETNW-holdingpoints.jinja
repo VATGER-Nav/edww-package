@@ -1,0 +1,40 @@
+MAP:Holding Points
+AIRPORT:ETNW
+FOLDER:Holding Points
+ACTIVE:1
+COLOR:holdingpoint
+STYLE:Solid:4
+{% set default = 0.000005 %}
+{% for name, geom in data.etnw_kml['HP'].items() %}
+    {% if geom[0].__class__.__name__ == 'LinearRing' %}
+    {{- geom | simplify(default) | to_poly(name, 'holdingpoint') -}}
+    {% else %}
+    {{- geom | simplify(default) | to_line(name) -}}
+    {% endif %}
+{% endfor %}
+
+MAP:Holding Points CAT I
+AIRPORT:ETNW
+FOLDER:Holding Points
+ACTIVE:LVP:ETNW:0
+COLOR:holdingpoint
+STYLE:Solid:4
+{% set default = 0.000005 %}
+{% for name, geom in data.etnw_kml['HP CATI'].items() %}
+    {% if geom[0].__class__.__name__ == 'LinearRing' %}
+    {{- geom | simplify(default) | to_poly(name, 'holdingpoint') -}}
+    {% else %}
+    {{- geom | simplify(default) | to_line(name) -}}
+    {% endif %}
+{% endfor %}
+
+MAP:Holding Points CAT II/III
+AIRPORT:ETNW
+FOLDER:Holding Points
+ACTIVE:LVP:ETNW:1
+COLOR:holdingpoint
+STYLE:Solid:4
+
+{% for name, geom in data.etnw_kml['HP CATII'].items() %}
+    {{- geom | simplify(default) | to_line(name) -}}
+{% endfor %}

@@ -1,0 +1,14 @@
+MAP:Leadin Lines
+AIRPORT:ETNW
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+
+{% for name, geom in data.etnw_kml['Stands'].items() %}
+    {{- geom | to_line(name) }}
+{% endfor %}
+
+{% for name, geom in data.etnw_kml['Guidance Blue'].items() %}
+    {{- geom | to_line(name) }}
+{% endfor %}

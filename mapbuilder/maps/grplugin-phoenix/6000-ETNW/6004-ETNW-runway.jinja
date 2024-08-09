@@ -1,0 +1,8 @@
+MAP:Runway
+AIRPORT:ETNW
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etnw_kml['Runways'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}

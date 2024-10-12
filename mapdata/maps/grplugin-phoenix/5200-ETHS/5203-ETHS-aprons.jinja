@@ -1,0 +1,8 @@
+MAP:Apron Movement Areas
+AIRPORT:ETHS
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.eths_kml['Aprons'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}

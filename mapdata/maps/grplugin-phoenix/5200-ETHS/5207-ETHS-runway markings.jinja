@@ -1,0 +1,12 @@
+MAP:Runway Markings
+AIRPORT:ETHS
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.eths_kml['Runway Markings'].items() %}
+    {{- geom | to_poly(name, 'runway-marking') }}
+{% endfor %}
+
+{% for name, geom in data.eths_kml['Runway Numbers'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}

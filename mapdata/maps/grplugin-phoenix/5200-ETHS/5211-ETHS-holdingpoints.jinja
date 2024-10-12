@@ -1,0 +1,14 @@
+MAP:Holding Points CAT I
+AIRPORT:ETHS
+FOLDER:Holding Points
+ACTIVE:1
+COLOR:holdingpoint
+STYLE:Solid:4
+{% set default = 0.000005 %}
+{% for name, geom in data.eths_kml['HP CATI'].items() %}
+    {% if geom[0].__class__.__name__ == 'LinearRing' %}
+    {{- geom | simplify(default) | to_poly(name, 'holdingpoint') -}}
+    {% else %}
+    {{- geom | simplify(default) | to_line(name) -}}
+    {% endif %}
+{% endfor %}

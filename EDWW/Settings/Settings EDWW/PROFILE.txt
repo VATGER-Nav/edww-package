@@ -107,10 +107,6 @@ PROFILE:EDDW_APP:150:5
 ATIS2:Callsign BREMEN RADAR
 ATIS3:Friesland Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDW_F_APP:150:5
-ATIS2:Callsign BREMEN DIRECTOR
-ATIS3:REPORT ONLY CALLSIGN - Briefing vats.im/EDWW
-ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNH_APP:150:5
 ATIS2:Callsign HOHN RADAR
 ATIS3:Submit your feedback at feedback.vatger.de

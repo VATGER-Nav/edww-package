@@ -186,7 +186,7 @@ Shortcut_Map_Xfr_Key=3,0x56
 Shortcut_Map_Target=3,ALL\VRP
 Shortcut_Map_Xfr_Combo=4,0x12
 Shortcut_Map_Xfr_Key=4,0x4D
-Shortcut_Map_Target=4,MVA\SUMMER_MVA
+Shortcut_Map_Target=4,MVA\WINTER_MVA
 Shortcut_Map_Xfr_Key=5,0x41 ; A
 Shortcut_Map_Target=5,AIRSPACE\AIRSPACE LEVELS
 

@@ -1,0 +1,12 @@
+MAP:Runway
+AIRPORT:ETNS
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etns_kml['RESA'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}
+
+{% for name, geom in data.etns_kml['Runways'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}

@@ -84,6 +84,15 @@
 			<color>ff00ffff</color>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -95,15 +104,6 @@
 		<PolyStyle>
 			<color>1affffff</color>
 		</PolyStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin4">
 		<IconStyle>
@@ -1888,16 +1888,6 @@
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						14.16804220229503,53.87661891891081,0 14.168375777288,53.87655394554955,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>D</name>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
 						14.16645576193435,53.87746490773746,0 14.16638347453638,53.87731900994142,0 
 					</coordinates>
 				</LineString>
@@ -2418,7 +2408,7 @@
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								14.14103010710321,53.87891885465972,0 14.14309742971296,53.87821923984674,0 14.14363044773115,53.87811991036342,0 14.14365881725514,53.87811678373051,0 14.14948760950292,53.8778245149505,0 14.14951121881874,53.87811661920666,0 14.14341785644188,53.87843430198195,0 14.14123916078707,53.87917071830514,0 14.14103010710321,53.87891885465972,0 
+								14.14103010710321,53.87891885465973,0 14.14309742971296,53.87821923984674,0 14.14363044773115,53.87811991036342,0 14.14365881725514,53.87811678373051,0 14.14948760950292,53.8778245149505,0 14.14951121881874,53.87811661920666,0 14.14341785644188,53.87843430198195,0 14.14123916078707,53.87917071830514,0 14.14103010710321,53.87891885465973,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>

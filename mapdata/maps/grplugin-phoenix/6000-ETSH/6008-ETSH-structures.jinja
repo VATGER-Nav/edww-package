@@ -1,0 +1,8 @@
+MAP:Buildings
+AIRPORT:ETSH
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etsh_kml['Vertical Structures'].items() %}
+    {{- geom | to_poly(name, 'building') }}
+{% endfor %}

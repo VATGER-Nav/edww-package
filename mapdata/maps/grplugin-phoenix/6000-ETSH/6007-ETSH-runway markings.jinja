@@ -1,0 +1,16 @@
+MAP:Runway Markings
+AIRPORT:ETSH
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etsh_kml['Runway Markings'].items() %}
+    {{- geom | to_poly(name, 'runway-marking') }}
+{% endfor %}
+
+{% for name, geom in data.etsh_kml['Runway Numbers'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}
+
+{% for name, geom in data.etsh_kml['Runway Arrestor Gear'].items() %}
+    {{- geom | to_poly(name, 'taxilane-yellow') }}
+{% endfor %}

@@ -10,3 +10,7 @@ ACTIVE:1
 {% for name, geom in data.etnw_kml['Runway Numbers'].items() %}
     {{- geom | to_poly(name, 'runway') }}
 {% endfor %}
+
+{% for name, geom in data.etnw_kml['Runway Arrestor Gear'].items() %}
+    {{- geom | to_poly(name, 'taxilane-yellow') }}
+{% endfor %}

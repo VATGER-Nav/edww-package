@@ -60,6 +60,11 @@ type = "kml"
 source = "kml/ETHC.kml"
 root = "ETHC"
 
+[data.eths_kml]
+type = "kml"
+source = "kml/ETHS.kml"
+root = "ETHS"
+
 [data.etmn_kml]
 type = "kml"
 source = "kml/ETMN.kml"
@@ -80,6 +85,11 @@ type = "kml"
 source = "kml/ETNL.kml"
 root = "ETNL"
 
+[data.etns_kml]
+type = "kml"
+source = "kml/ETNS.kml"
+root = "ETNS"
+
 [data.etnt_kml]
 type = "kml"
 source = "kml/ETNT.kml"
@@ -89,6 +99,16 @@ root = "ETNT"
 type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
+
+[data.etsh_kml]
+type = "kml"
+source = "kml/ETSH.kml"
+root = "ETSH"
+
+[data.etwm_kml]
+type = "kml"
+source = "kml/ETWM.kml"
+root = "ETWM"
 
 #[data.rivers]
 #type = "kml"
@@ -620,4 +640,14 @@ bearing = 273.39
 fap = [ ]
 loc = [ 51.768773, 13.142866 ]
 
+[runways.ETWM.06]
+thr = [ 52.721504, 7.322380 ]
+bearing = 235.00
+fap = [ ]
+loc = [ ]
 
+[runways.ETWM.24]
+thr = [ 52.724480, 7.329758 ]
+bearing = 55.00
+fap = [ ]
+loc = [ ]

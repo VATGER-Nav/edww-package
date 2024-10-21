@@ -1,0 +1,10 @@
+MAP:Leadin Lines
+AIRPORT:ETNS
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+
+{% for name, geom in data.etns_kml['Stands'].items() %}
+    {{- geom | to_line(name) }}
+{% endfor %}

@@ -1,0 +1,11 @@
+MAP:Stands
+AIRPORT:ETNS
+FOLDER:Labels
+COLOR:labels-stand
+FONTSIZE:=:10
+ACTIVE:1
+
+ZOOM:500
+{% for name, geom in data.etns_kml['StandLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}

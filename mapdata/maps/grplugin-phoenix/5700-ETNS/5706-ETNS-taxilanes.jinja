@@ -1,0 +1,11 @@
+MAP:Taxi Lanes
+AIRPORT:ETNS
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+
+COLOR:taxilane-yellow
+{% for name, geom in data.etns_kml['Guidance'].items() %}
+    {{- geom | simplify(default) | to_line(name) }}
+{% endfor %}

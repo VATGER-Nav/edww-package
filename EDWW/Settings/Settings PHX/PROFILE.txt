@@ -75,10 +75,6 @@ PROFILE:EDDW_GND:20:3
 ATIS2:Callsign BREMEN GROUND
 ATIS3:Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDW_DEL:20:2
-ATIS2:Callsign BREMEN DELIVERY
-ATIS3:Airport Briefing vats.im/edww
-ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDAH_TWR:50:4
 ATIS2:HERINGSDORF TOWER
 ATIS3:Submit your feedback at feedback.vatger.de

@@ -3,6 +3,9 @@ AIRPORT:ETNH
 FOLDER:Airport Layout
 ACTIVE:1
 
-{% for name, geom in data.etnh_kml['Base'].items() %}
-    {{- geom | to_poly(name, 'base') }}
-{% endfor %}
+COLOR:base
+COORD:N054.20.25.000:E009.21.15.000
+COORD:N054.22.45.000:E009.42.30.000
+COORD:N054.16.50.000:E009.43.15.000
+COORD:N054.14.40.000:E009.23.05.000
+COORD:N054.20.25.000:E009.21.15.000

@@ -44,7 +44,7 @@ Label=GND:ARR:3:STAND,0,0:RMK,0,1
 Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:DEP:1:CALLSIGN,0,0
 Label=GND:DEP:2:ATYP,0,0:WTC,0,4
-Label=GND:DEP:3:DEP,0,0:RMK,0,1
+Label=GND:DEP:3:DEP,0,0:DRWY,0,1:RMK,0,1
 
 Label=GND:UNC:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:UNC:1:CALLSIGN,0,0:WTC,0,1:ATYP,0,1
@@ -83,7 +83,7 @@ Label=APP:UNC:3:
 
 Label_ATYP=0,1,0,0
 Label_DEP=0,1,0,0
-Label_DRWY=0,1,0,0
+Label_DRWY=0,0,0,0
 Label_SID=0,0,0,0
 Label_STAND=0,1,0,0
 Label_WTC=0,1,0,0
@@ -161,7 +161,7 @@ Airport_Radius=1.7
 Airport_Elevation=182
 Airport_Radius=1.5
 Airport_Runway_MaxWTC=27L:M
-Label=GND:DEP:3:DEP,0,0:DRWY,0,1:RMK,0,1
+Label_DRWY=0,1,0,0
 
 [EDDW]
 Airport_Elevation=52

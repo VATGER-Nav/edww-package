@@ -11,7 +11,7 @@ STYLE:solid
 {% endfor %}
 
 //APRON 1 LANES
-{% for stand in ['STAND L2 102', 'STAND L2 103', 'STAND L2 104', 'STAND L2 105', 'STAND L2 106', 'STAND L2 107', 'STAND L2 108', 'STAND L2 109'] %}
+{% for stand in ['STAND L2 102', 'STAND L2 103', 'STAND L2 104', 'STAND L2 105', 'STAND L2 106', 'L2 106', 'STAND L2 107', 'STAND L2 108', 'STAND L2 109'] %}
     {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
@@ -31,7 +31,7 @@ STYLE:solid
 {% endfor %}
 
 //APRON 3 STAND
-{% for stand in ['STAND 301', 'STAND 302', 'STAND 303', 'STAND 304'] %}
+{% for stand in ['STAND 301'] %}
     {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 

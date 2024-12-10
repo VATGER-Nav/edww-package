@@ -135,6 +135,8 @@ Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=0
 Airspace_No_DUPE_Codes=1000,7000,0020,0023,0033,0034,0036,4401,7001,7002,4450,4451,4452,4453,4454,7740,7741,7742,7743,7744,1200,2000
 
+Areas_Remote_Activation=1
+
 WXR_Latitude=49,3
 WXR_Latitude_Max=55
 WXR_Latitude_Min=44

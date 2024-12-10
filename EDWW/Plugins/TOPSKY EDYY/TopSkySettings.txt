@@ -27,7 +27,7 @@ APW_Buffer_Vert_L_IFR=799
 APW_Buffer_Vert_L_IFR=799
 
 Areas_NOTAM_Activation=1
-Areas_Remote_Activation=1
+//Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
 //Standard colors, all other defined below
@@ -302,7 +302,7 @@ Vector_MinSep_FontSize=12
 Vector_MinSep_Label_Time=1
 Vector_QDM_MaxNumber=99
 
-Window_ASM=1,500,500
+Window_ASM=1,500,500,675,400
 Window_ASM_Chars_Name=9
 Window_ASM_Chars_MapText=25
 Window_CARD=1,1525,788

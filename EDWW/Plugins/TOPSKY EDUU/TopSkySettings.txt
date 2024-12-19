@@ -6,7 +6,7 @@ HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Act
 Setup_COOPANS=1
 RwyAppLines_Auto=0
 
-Areas_Remote_Activation=1
+//Areas_Remote_Activation=1
 
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=0
@@ -345,7 +345,7 @@ Vector_MinSep_Font=EuroScope
 Vector_QDM_MaxNumber=99
 Vector_QDM_Font=EuroScope
 
-Window_ASM=1,250,100,675,400
+Window_ASM=1,500,500,675,400
 Window_ASM_Chars_Name=9
 Window_ASM_Chars_MapText=25
 Window_CARD_View_Risk=0

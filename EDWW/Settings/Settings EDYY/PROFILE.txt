@@ -1,15 +1,15 @@
 PROFILE
-PROFILE:XX_OBS:100:0
+PROFILE:%%_OBS:100:0
 ATIS2:
 ATIS3:
 ATIS4:
-PROFILE:EDYY_C_CTR:300:6
+PROFILE:EDYY_CL_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYC
-ATIS3:Celle Sector - Check sector coverage at vatglasses.uk
+ATIS3:Celle Low Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDYY_CH_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDCH
-ATIS3:Celle Sector - Check sector coverage at vatglasses.uk
+ATIS3:Celle High Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDYY_JL_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC ON EDYJ
@@ -27,16 +27,36 @@ PROFILE:EDYY_HH_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDHH
 ATIS3:Holstein High Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDYY_S_CTR:300:6
+PROFILE:EDYY_SL_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYS
-ATIS3:Solling Sector - Check sector coverage at vatglasses.uk
+ATIS3:Solling Low Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDYY_SH_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDSH
-ATIS3:Solling Sector - Check sector coverage at vatglasses.uk
+ATIS3:Solling High Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDYY_MNS_CTR:300:6
+PROFILE:EDYY_ML_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYM
+ATIS3:Muenster Low Sector - Check sector coverage at vatglasses.uk
+ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:EDYY_MH_CTR:300:6
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDNH
+ATIS3:Muenster High Sector - Check sector coverage at vatglasses.uk
+ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:EDYY_MM_CTR:300:6
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDTG
 ATIS3:Muenster Sector - Check sector coverage at vatglasses.uk
+ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:EDYY_RL_CTR:300:6
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYR
+ATIS3:Ruhr Low Sector - Check sector coverage at vatglasses.uk
+ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:EDYY_RH_CTR:300:6
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDRH
+ATIS3:Ruhr High Sector - Check sector coverage at vatglasses.uk
+ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:EDYY_BB_CTR:300:6
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYB
+ATIS3:Bandbox Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 END

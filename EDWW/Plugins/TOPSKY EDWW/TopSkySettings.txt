@@ -27,7 +27,7 @@ APW_Buffer_Vert_L_IFR=799
 APW_Buffer_Vert_L_IFR=799
 
 Areas_NOTAM_Activation=1
-Areas_Remote_Activation=1
+//Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
 Color_Active_Map_Type_1=82,162,112 	 //ED-R + Centerlines EDDB 
@@ -61,7 +61,7 @@ Color_COL_Above_Threshold=250,170,15
 Color_Concerned=0,188,198
 Color_Coordination=0,200,200
 Color_CPDLC_UM_Clearance=255,150,0
-Color_Flight_Highlight=0,0,0
+Color_Flight_Highlight=0,150,150
 Color_Flight_Leg=0,170,0
 Color_Field_Highlight=0,0,0
 Color_Foreground=255,255,255
@@ -281,7 +281,7 @@ Vector_MinSep_FontSize=12
 Vector_MinSep_Label_Time=1
 Vector_QDM_MaxNumber=99
 
-Window_ASM=1,500,500
+Window_ASM=1,500,500,675,400
 Window_ASM_Chars_Name=9
 Window_ASM_Chars_MapText=25
 Window_CARD_View_Risk=0

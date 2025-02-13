@@ -8,358 +8,311 @@
 		"appSI": "HAN,HRZ,DST,EIDW",
         "timezone": "Europe/Berlin",
         "sids": {
+            "initial": 4000,
             "CEL": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 2
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2
+                    }
                 },
-                "2": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1,
-					"wtc": "LM",
-					"customRule": "low"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1,
+                        "wtc": "LM",
+                        "customRule": "low"
+                    },
+                    "2": {
+                        "rwy": "09R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 3
+                    }
                 },
-				"3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 3
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    }
                 },
-			    "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"prio": 1,
-					"area": "gat"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 3
-                },
-			    "6": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-                    "prio": 2,
-					"wtc": "LM",
-					"customRule": "low"
-                },
-				"7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-                    "prio": 4
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "prio": 2,
+                        "wtc": "LM",
+                        "customRule": "low"
+                    },
+                    "2": {
+                        "rwy": "27L",
+                        "prio": 4
+                    }
                 }
             },
 			"MULDO": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 3
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 3
+                    },
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
                 },
-				"2": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 2
+                    }
                 },
-                "3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 2
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 3
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1,
+                        "area": "gat"
+                    }
                 },
-			    "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 3
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-					"prio": 1,
-					"area": "gat"
-                },
-				"6": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 2,
-					"wtc": "LM",
-					"customRule": "low"
-					
-                },
-				"7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 4
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2,
+                        "wtc": "LM",
+                        "customRule": "low"
+                        
+                    },
+                    "2": {
+                        "rwy": "27L",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 4
+                    }
                 }
             },
 			"NIE": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 2
+                "equip": {"RNAV": true, "NON-RNAV": true},
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 2
+                    }
                 },
-                "2": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1,
-					"wtc": "LM",
-					"customRule": "low"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 1,
+                        "wtc": "LM",
+                        "customRule": "low"
+                    },
+                    "2": {
+                        "rwy": "09R",
+                        "prio": 3
+                    }
                 },
-				"3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 3
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    }
                 },
-				"4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-					"prio": 1,
-					"area": "gat"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 3
-                },
-			    "6": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 2,
-					"wtc": "LM",
-					"customRule": "low"
-                },
-				"7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 4
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "prio": 2,
+                        "wtc": "LM",
+                        "customRule": "low"
+                    },
+                    "2": {
+                        "rwy": "27L",
+                        "prio": 4
+                    }
                 }
             },
 			"POVEL": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 3
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 3
+                    },
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
                 },
-				"2": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
+                "H": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 2
+                    }
                 },
-                "3": {
-					"designator": "H",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 2
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1,
+                        "wtc": "HJ"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 3
+                    },
+                    "3": {
+                        "rwy": "27R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1,
+                        "area": "gat"
+                    }
                 },
-			    "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1,
-                    "wtc": "HJ"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 3
-                },
-				"6": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-					"prio": 1,
-					"area": "gat"
-                },
-			    "7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 2
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2
+                    }
                 }
             },
 			"VAXEV": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 2
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 2
+                    }
                 },
-                "2": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 1,
-					"wtc": "LM",
-                    "customRule": "low"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 1,
+                        "wtc": "LM",
+                        "customRule": "low"
+                    },
+                    "2": {
+                        "rwy": "09R",
+                        "prio": 3
+                    }
                 },
-				"3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 3
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    },
+                    "3": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    }
                 },
-			    "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 3
-                },
-				"6": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"prio": 1,
-					"area": "gat"
-                },
-			    "7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-                    "prio": 2
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "prio": 2
+                    }
                 }
             },
 			"WERRA": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 3
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 3
+                    },
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
                 },
-				"2": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 2
+                    }
                 },
-                "3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 2
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    },
+                    "3": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    }
                 },
-			   "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 3
-                },
-				"6": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"prio": 1,
-					"area": "gat"
-                },
-			    "7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-                    "prio": 2
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "prio": 2
+                    }
                 }
             },
 			"WRB": {
-                "1": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 3
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
+                        "prio": 3
+                    },
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
                 },
-				"2": {
-					"designator": "Y",
-                    "rwy": "09L",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 2
+                    }
                 },
-                "3": {
-					"designator": "G",
-                    "rwy": "09R",
-                    "initial": 4000,
-                    "prio": 2
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    },
+                    "3": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    }
                 },
-			    "4": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 1,
-                    "wtc": "HJ"
-                },
-				"5": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-                    "prio": 3
-                },
-				"6": {
-					"designator": "S",
-                    "rwy": "27R",
-                    "initial": 4000,
-					"prio": 1,
-					"area": "gat"
-                },
-			    "7": {
-					"designator": "F",
-                    "rwy": "27L",
-                    "initial": 4000,
-                    "prio": 2
+                "F": {
+                    "1": {
+                        "rwy": "27L",
+                        "prio": 2
+                    }
                 }
             }
         },

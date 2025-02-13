@@ -8,444 +8,446 @@
 		"timezone": "Europe/Berlin",
         "sids": {
             "ARSAP": {
-                "1": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 },
-				"2": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "req. if southern runway is closed"
+                "Q": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-                "3": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
+                "Z": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99
+                    }
                 },
-				"4": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
+                "N": {
+                    "1": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"5": {
-					"designator": "Z",
-                    "rwy": "06R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99
+                "A": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 },
-				"6": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
-                },
-				"7": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
-                },
-				"8": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
-                },
-				"9": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "req. if southern runway is closed"
-                },
-				"10": {
-					"designator": "M",
-                    "rwy": "24R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-                    "pilotfiled": true
+                "M": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 }
 			},
 			"GERGA": {
-                "1": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"2": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 2,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "pref. if areas are deactivated"
+                "Q": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if northern runway is closed"
+                    }
                 },
-                "3": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
+                "Z": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99
+                    }
                 },
-				"4": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"rmk": "req. if northern runway is closed"
+                "N": {
+                    "1": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if northern runway is closed"
+                    }
                 },
-				"5": {
-					"designator": "Z",
-                    "rwy": "06R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99
+                "A": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"6": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
-                },
-				"7": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"rmk": "req. if northern runway is closed"
-                },
-				"8": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
-                },
-				"9": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "pref. if areas are deactivated"
-                },
-				"10": {
-					"designator": "M",
-                    "rwy": "24R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false}
+                "M": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "designator": "M",
+                        "rwy": "24R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99
+                    }
                 }
 			},
 			"LUROS": {
-                "1": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 },
-				"2": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "req. if southern runway is closed"
+                "Q": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-                "3": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
+                "Z": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 },
-				"4": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
+                "N": {
+                    "6": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "7": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"5": {
-					"designator": "Z",
-                    "rwy": "06R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99,
-                    "pilotfiled": true
+                "A": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 },
-				"6": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
-                },
-				"7": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
-                },
-				"8": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
-                },
-				"9": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "req. if southern runway is closed"
-                },
-				"10": {
-					"designator": "M",
-                    "rwy": "24R",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 99,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false}
+                "M": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "prio": 99
+                    }
                 }
 			},
 			"SUKIP": {
-                "1": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"2": {
-					"designator": "B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 2,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "pref. if areas are deactivated"
+                "K": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "3": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 },
-				"3": {
-					"designator": "K",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 99,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-                    "pilotfiled": true
+                "Q": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if northern runway is closed"
+                    }
                 },
-                "4": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
+                "Z": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 },
-				"5": {
-					"designator": "Q",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": true,
-                    "prio": 3,
-					"rmk": "req. if northern runway is closed"
+                "N": {
+                    "1":  {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if northern runway is closed"
+                    }
                 },
-				"6": {
-					"designator": "Z",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": false,
-                    "prio": 99,
-                    "pilotfiled": true
-                },
-				"7":  {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
-                },
-				"8": {
-					"designator": "N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"rmk": "req. if northern runway is closed"
-                },
-				"9": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"area": "north"
-                },
-				"10": {
-					"designator": "A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 2,
-					"acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-					"rmk": "pref. if areas are deactivated"
+                "A": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 }
 			},
 			"LOGDO": {
-                "1":{
-					"designator":"B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-					"area": "north"
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1":{
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2":{
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 },
-				"2":{
-					"designator":"B",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-					"rmk": "req. if southern runway is closed"
+                "K": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1":{
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 },
-				"3":{
-					"designator":"K",
-                    "rwy": "06L",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 99,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-                    "pilotfiled": true
+                "Q": {
+                    "1":{
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2":{
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-                "4":{
-					"designator":"Q",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
+                "Z": {
+                    "1":{
+                        "rwy": "06R",
+                        "initial": 8000,
+                        "climbvia": false,
+                        "prio": 99,
+                        "pilotfiled": true
+                    }
                 },
-				"5":{
-					"designator":"Q",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
+                "N": {
+                    "1":{
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 1,
+                        "area": "south"
+                    },
+                    "2":{
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "rmk": "pref. if areas are deactivated"
+                    }
                 },
-				"6":{
-					"designator":"Z",
-                    "rwy": "06R",
-                    "initial": 8000,
-                    "climbvia": false,
-                    "prio": 99,
-                    "pilotfiled": true
-                },
-				"7":{
-					"designator":"N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 1,
-					"area": "south"
-                },
-				"8":{
-					"designator":"N",
-                    "rwy": "24L",
-                    "initial": 5000,
-                    "climbvia": true,
-                    "prio": 2,
-					"rmk": "pref. if areas are deactivated"
-                },
-				"9":{
-					"designator":"A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 1,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-					"area": "north"
-                },
-				"10":{
-					"designator":"A",
-                    "rwy": "24R",
-                    "initial": 5000,
-                    "climbvia": false,
-                    "prio": 3,
-					"acftType": {"B748": false, "A388": false,"AN124":false,"AN225":false},
-					"rmk": "req. if southern runway is closed"
+                "A": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1":{
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+                    "2":{
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "climbvia": false,
+                        "prio": 3,
+                        "rmk": "req. if southern runway is closed"
+                    }
                 }
 			},
 			"ROKMU": {
-                "1":{
-					"designator":"P",
-                    "rwy": "24L",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"NON-RNAV": true},
-                    "prio": 1
+                "P": {
+                    "1":{
+                        "rwy": "24L",
+                        "initial": 4000,
+                        "climbvia": false,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
                 }
 			}
         },

@@ -1,7 +1,8 @@
 System_State_OnFreq=WT
 System_State_DeIce=IC
 System_State_Push=PB
-System_State_Taxi=TX
+System_State_Taxi_Out=TX
+System_State_Taxi_In=TX
 System_State_LineUp=LU
 System_State_Depa=TO
 System_State_StartUp=SU

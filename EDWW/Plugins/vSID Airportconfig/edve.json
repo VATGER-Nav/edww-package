@@ -7,125 +7,114 @@
         "appSI": "HAN,HRZ,DST,EIDW",
 		"timezone": "Europe/Berlin",
         "sids": {
+            "initial": 4000,
             "DIRBO": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "T",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
                 }
 			},
 			"BATEL": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "equip": {"RNAV": true, "NON-RNAV": true},
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "G",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "G": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
                 }
 			},
 			"HLZ": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "equip": {"RNAV": true, "NON-RNAV": true},
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "T",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
                 }
 			},
 			"POVEL": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "W",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "W": {
+                    "1": {
+                        "rwy": "26",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"NORTA": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "T",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "26",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"DLE": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "equip": {"RNAV": true, "NON-RNAV": true},
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "T",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": false,
-					"equip": {"RNAV": true, "NON-RNAV": true},
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
                 }
 			},
 			"NIE": {
-                "1": {
-					"designator": "U",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "U": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "T",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": false,
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
                 }
 			}
         }

@@ -6,76 +6,86 @@
         "maxInitialClimb": 27000,
 		"appSI": "",
         "sids": {
+            "initial": 4000,
             "NL12": {
                 "1": {
-					"wpt": "GASBO",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "GASBO",
+                        "rwy": "27",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL14": {
                 "1": {
-					"wpt": "TAGOB",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "TAGOB",
+                        "rwy": "27",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL16": {
                 "1": {
-					"wpt": "LEGSA",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "LEGSA",
+                        "rwy": "27",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL32": {
                 "1": {
-					"wpt": "GASBO",
-                    "rwy": "09",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "GASBO",
+                        "rwy": "09",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL34": {
                 "1": {
-					"wpt": "TAGOB",
-                    "rwy": "09",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "TAGOB",
+                        "rwy": "09",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL36": {
                 "1": {
-					"wpt": "LEGSA",
-                    "rwy": "09",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "LEGSA",
+                        "rwy": "09",
+                        "prio": 1
+                    }
                 }
 			},
 			"NL109": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "09",
-                    "initial": 4000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "09",
+                        "prio": 2
+                    }
                 }
 			},
 			"NL127": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "27",
+                        "prio": 2
+                    }
                 }
 			},
 			"NL227": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "prio": 99
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "27",
+                        "prio": 99
+                    }
                 }
 			}
 		}
@@ -89,18 +99,22 @@
         "sids": {
             "NH108": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			},
 			"NH126": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -114,18 +128,22 @@
         "sids": {
             "NS105": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "05",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "05",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			},
 			"NS123": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "23",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "23",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -139,18 +157,22 @@
         "sids": {
             "MN108": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2000,
+                        "prio": 1
+                    }
                 }
 			},
 			"MN126": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 2000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 2000,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -164,26 +186,32 @@
         "sids": {
             "NT108": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 3000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 3000,
+                        "prio": 1
+                    }
                 }
 			},
 			"NT208": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "06",
-                    "initial": 7000,
-                    "prio": 99
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "06",
+                        "initial": 7000,
+                        "prio": 99
+                    }
                 }
 			},
 			"NT126": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 3000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 3000,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -197,18 +225,22 @@
         "sids": {
             "ND108": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			},
 			"ND126": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 2500,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 2500,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -222,18 +254,22 @@
         "sids": {
             "HS109": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "09",
-                    "initial": 2000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "09",
+                        "initial": 2000,
+                        "prio": 1
+                    }
                 }
 			},
 			"HS127": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "27",
-                    "initial": 2000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "27",
+                        "initial": 2000,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -247,60 +283,70 @@
         "sids": {
             "HC108": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			},
 			"HC126": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			},
 			"AMALI": {
-                "1": {
-					"designator": "C",
-                    "rwy": "26",
-                    "climbvia": true,
-                    "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "26",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "D",
-                    "rwy": "08",
-                    "climbvia": true,
-                    "prio": 1
+                "D": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"NIE": {
-                "1": {
-					"designator": "C",
-                    "rwy": "26",
-                    "climbvia": true,
-                    "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "26",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "D",
-                    "rwy": "08",
-                    "climbvia": true,
-                    "prio": 1
+                "D": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"OBATU": {
-                "1": {
-					"designator": "C",
-                    "rwy": "26",
-                    "climbvia": true,
-                    "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "26",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "D",
-                    "rwy": "08",
-                    "climbvia": true,
-                    "prio": 1
+                "D": {
+                    "1": {
+                        "rwy": "08",
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -314,66 +360,82 @@
         "sids": {
             "HB11": {
                 "1": {
-					"wpt": "OSN",
-                    "rwy": "25",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "OSN",
+                        "rwy": "25",
+                        "initial": 4000,
+                        "prio": 1
+                    }
                 }
 			},
 			"HB31": {
                 "1": {
-					"wpt": "OSN",
-                    "rwy": "07",
-                    "initial": 4000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "OSN",
+                        "rwy": "07",
+                        "initial": 4000,
+                        "prio": 1
+                    }
                 }
 			},
 			"HB12": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "25",
-                    "initial": 4000,
-                    "prio": 99
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "25",
+                        "initial": 4000,
+                        "prio": 99
+                    }
                 }
 			},
 			"HB32": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "07",
-                    "initial": 4000,
-                    "prio": 99
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "07",
+                        "initial": 4000,
+                        "prio": 99
+                    }
                 }
 			},
 			"HB13": {
                 "1": {
-					"wpt": "ROBEG",
-                    "rwy": "25",
-                    "initial": 5000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "ROBEG",
+                        "rwy": "25",
+                        "initial": 5000,
+                        "prio": 1
+                    }
                 }
 			},
 			"HB33": {
                 "1": {
-					"wpt": "ROBEG",
-                    "rwy": "07",
-                    "initial": 5000,
-                    "prio": 1
+                    "1": {
+                        "wpt": "ROBEG",
+                        "rwy": "07",
+                        "initial": 5000,
+                        "prio": 1
+                    }
                 }
 			},
 			"HB107": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2600,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2600,
+                        "prio": 2
+                    }
                 }
 			},
 			"HB125": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "25",
-                    "initial": 2600,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "25",
+                        "initial": 2600,
+                        "prio": 2
+                    }
                 }
 			}
 		}
@@ -387,18 +449,22 @@
         "sids": {
             "SH109": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "09",
-                    "initial": 2200,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "09",
+                        "initial": 2200,
+                        "prio": 1
+                    }
                 }
 			},
 			"SH127": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "27",
-                    "initial": 2200,
-                    "prio": 1
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "27",
+                        "initial": 2200,
+                        "prio": 1
+                    }
                 }
 			}
 		}
@@ -411,108 +477,125 @@
 		"appSI": "",
         "sids": {
             "CEL": {
-                "1": {
-					"designator": "A",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "08",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "B",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "26",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"NIE": {
-                "1": {
-					"designator": "A",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "08",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "B",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "26",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"ROBEG": {
-                "1": {
-					"designator": "A",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "08",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "B",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "26",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"SAS": {
-                "1": {
-					"designator": "A",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "08",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"VAXEV": {
-                "1": {
-					"designator": "A",
-                    "rwy": "08",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "08",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 },
-                "2": {
-					"designator": "B",
-                    "rwy": "26",
-                    "initial": 4000,
-                    "climbvia": true,
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "26",
+                        "initial": 4000,
+                        "climbvia": true,
+                        "prio": 1
+                    }
                 }
 			},
 			"NW102": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "02",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "02",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			},
 			"NW120": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "20",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "20",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			},
 			"NW308": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "08",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "08",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			},
 			"NW326": {
                 "1": {
-					"wpt": "XXX",
-                    "rwy": "26",
-                    "initial": 2000,
-                    "prio": 2
+                    "1": {
+                        "wpt": "XXX",
+                        "rwy": "26",
+                        "initial": 2000,
+                        "prio": 2
+                    }
                 }
 			}
 		}

@@ -4,33 +4,11 @@
         "runways": "09,27,23",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "FRI,EIDE,ALR,EIDW,WC",
+        "appSI": "FRI,EID,ALR,WW,WC",
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,
-            "BASUM": {
-                "M": {
-                    "1": {
-                        "rwy": "09",
-                        "prio": 1
-                    }
-                },
-                "Z": {
-                    "1": {
-                        "rwy": "27",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 1
-                    }
-                },
-                "L": {
-                    "1": {
-                        "rwy": "27",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 2
-                    }
-                }
-			},
-			"ERLAD": {
+            "WIMCI": {
                 "M": {
                     "1": {
                         "rwy": "09",
@@ -71,7 +49,6 @@
                 }
 			},
 			"NIE": {
-                "equip": {"RNAV": true, "NON-RNAV": true},
                 "M": {
                     "1": {
                         "rwy": "09",
@@ -91,7 +68,7 @@
                     }
                 }
 			},
-			"OTEXE": {
+			"OKWEL": {
                 "M": {
                     "1": {
                         "rwy": "09",
@@ -101,7 +78,6 @@
                 "L": {
                     "1": {
                         "rwy": "27",
-                        "climbvia": true,
                         "prio": 1
                     }
                 }
@@ -110,13 +86,23 @@
                 "M": {
                     "1": {
                         "rwy": "09",
-                        "prio": 1
+                        "prio": 1,
+						"wpt": "ABDIM"
+                    },
+					"2": {
+                        "rwy": "09",
+                        "prio": 2
                     }
                 },
                 "L": {
                     "1": {
                         "rwy": "27",
-                        "prio": 1
+                        "prio": 1,
+						"wpt": "ABDIM"
+                    },
+					"2": {
+                        "rwy": "27",
+                        "prio": 2
                     }
                 }
 			},

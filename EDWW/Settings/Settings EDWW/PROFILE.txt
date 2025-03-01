@@ -15,13 +15,9 @@ PROFILE:EDWW_B_CTR:300:6
 ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWB (CPDLC above FL285 only!)
 ATIS3:Boerde Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDWW_D_CTR:300:6
-ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWD (CPDLC above FL245 only!)
-ATIS3:Deister Sector - Check sector coverage at vatglasses.uk
-ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_E_CTR:300:6
 ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWE (CPDLC above FL245 only!)
-ATIS3:Eider East Sector - Check sector coverage at vatglasses.uk
+ATIS3:Eider Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_F_CTR:300:6
 ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWF (CPDLC above FL285 only!)
@@ -40,7 +36,7 @@ ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWM (CPDLC above FL285 only!)
 ATIS3:Mueritz Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_R_CTR:300:6
-ATIS2:Callsign BREMEN RADAR
+ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWR (CPDLC above FL245 only!)
 ATIS3:Harz Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_S_CTR:300:6
@@ -49,7 +45,7 @@ ATIS3:Ems Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_W_CTR:300:6
 ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWW (CPDLC above FL245 only!)
-ATIS3:Eider West Sector - Check sector coverage at vatglasses.uk
+ATIS3:Bandbox West Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_S_APP:150:5
 ATIS2:Callsign BREMEN RADAR - PDC/DCL EDDB
@@ -75,13 +71,13 @@ PROFILE:EDDB_S_DEP:150:5
 ATIS2:Callsign BREMEN RADAR
 ATIS3:Berlin Departure South Sector - Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDH_E_APP:150:5
+PROFILE:EDDH_APP:150:5
 ATIS2:Callsign BREMEN RADAR - PDC/DCL EDDH
-ATIS3:Hamburg East Sector - Briefing vats.im/EDWW
+ATIS3:Hamburg Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_W_APP:150:5
 ATIS2:Callsign BREMEN RADAR - PDC/DCL EDDH
-ATIS3:Hamburg West Sector - Briefing vats.im/EDWW
+ATIS3:Hamburg Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_A_APP:150:5
 ATIS2:Callsign HAMBURG ARRIVAL

@@ -24,7 +24,7 @@
                     }
                 }
 			},
-			"BASUM": {
+			"HABFU": {
                 "E": {
                     "1": {
                         "rwy": "05",
@@ -64,6 +64,7 @@
                 "W": {
                     "1": {
                         "rwy": "23",
+						"climbvia": true,
                         "prio": 1
                     }
                 }
@@ -117,6 +118,7 @@
                     "1": {
                         "rwy": "05",
                         "equip": {"NON-RNAV": true},
+						"climbvia": true,
                         "prio": 1
                     }
                 },

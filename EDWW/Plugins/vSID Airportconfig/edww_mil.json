@@ -4,7 +4,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "MRZ,MAR,BOR,WC",
         "sids": {
             "initial": 4000,
             "NL12": {
@@ -95,7 +95,7 @@
         "runways": "08,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "EID,ALR,WW,WC",
         "sids": {
             "NH108": {
                 "1": {
@@ -124,7 +124,7 @@
         "runways": "05,23",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "EID,ALR,WW,WC",
         "sids": {
             "NS105": {
                 "1": {
@@ -153,7 +153,7 @@
         "runways": "08,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "EID,ALR,WW,WC",
         "sids": {
             "MN108": {
                 "1": {
@@ -182,7 +182,7 @@
         "runways": "08,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "FRI,EID,ALR,WW,WC",
         "sids": {
             "NT108": {
                 "1": {
@@ -221,7 +221,7 @@
         "runways": "08,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "EMS,HRZ,WW,WC",
         "sids": {
             "ND108": {
                 "1": {
@@ -250,7 +250,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "HAN,HRZ,EMS,WW,WC",
         "sids": {
             "HS109": {
                 "1": {
@@ -279,7 +279,7 @@
         "runways": "08,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "HAN,HRZ,EMS,WW,WC",
         "sids": {
             "HC108": {
                 "1": {
@@ -356,7 +356,7 @@
         "runways": "07,25",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "HAN,HRZ,EMS,WW,WC",
         "sids": {
             "HB11": {
                 "1": {
@@ -445,7 +445,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "DBAS,DBAN,FLG,BOR,MAR,MRZ,WC",
         "sids": {
             "SH109": {
                 "1": {
@@ -474,7 +474,7 @@
         "runways": "02,08,20,26",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "",
+		"appSI": "HAN,HRZ,EMS,WW,WC",
         "sids": {
             "CEL": {
                 "A": {

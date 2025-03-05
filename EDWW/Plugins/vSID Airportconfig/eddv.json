@@ -5,7 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "customRules" : {"low":false},
-		"appSI": "HAN,HRZ,DST,EIDW",
+		"appSI": "HAN,HRZ,EMS,WW,WC",
         "timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,

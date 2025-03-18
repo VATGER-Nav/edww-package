@@ -145,6 +145,10 @@ source = "common/airspace_levels.txt"
 type = "sectors"
 source = "misc/sectors_dev.txt"
 
+[data.obstacles]
+type = "raw"
+source = "common/obstacles.txt"
+
 [profiles]
 
 [profiles.EDWW]

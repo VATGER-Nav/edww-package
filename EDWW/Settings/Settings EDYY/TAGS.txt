@@ -93,7 +93,7 @@ TAGITEM:79::0:1:7:50:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:271::0:1:18:18:TopSky plugin:0:1:::1
 TAGITEM:66::0:1:29:0::0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:47::0:1:15:12:TopSky plugin:0:1:TopSky plugin::1
+TAGITEM:47::0:1:15:12:TopSky plugin:1:1:TopSky plugin::1
 TAGITEM:25::0:1:14:45::1:1:TopSky plugin:TopSky plugin:1
 TAGITEM:7::0:1:0:107:IASsure:1:1::IASsure:1
 TAGITEM:1::0:1:0:102:IASsure:1:1::IASsure:1
@@ -269,7 +269,7 @@ TAGITEM:79::0:1:7:50:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:271::0:1:18:18:TopSky plugin:0:1:::1
 TAGITEM:66::0:1:29:0::0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:47::0:1:15:12:TopSky plugin:0:1:TopSky plugin::1
+TAGITEM:47::0:1:15:12:TopSky plugin:1:1:TopSky plugin::1
 TAGITEM:25::0:1:14:45::1:1:TopSky plugin:TopSky plugin:1
 TAGITEM:7::0:1:0:107:IASsure:1:1::IASsure:1
 TAGITEM:1::0:1:0:102:IASsure:1:1::IASsure:1

@@ -10,6 +10,11 @@
    ],
    "Squawks":[
       {
+         "code":"7601",
+         "message":"RCV",
+         "color":"#E11919"
+      },
+      {
          "code":"7740",
          "message":"FDH",
          "color":"#367f0b"

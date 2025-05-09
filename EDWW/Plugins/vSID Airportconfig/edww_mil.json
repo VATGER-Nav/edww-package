@@ -179,36 +179,36 @@
 	},
 	"ETNT": {
         "elevation": 26,
-        "runways": "08,26",
+        "runways": "07,25",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
 		"appSI": "FRI,EID,ALR,WW,WC",
         "sids": {
-            "NT108": {
+            "NT107": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
-                        "rwy": "08",
+                        "rwy": "07",
                         "initial": 3000,
                         "prio": 1
                     }
                 }
 			},
-			"NT208": {
+			"NT207": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
-                        "rwy": "06",
+                        "rwy": "07",
                         "initial": 7000,
                         "prio": 99
                     }
                 }
 			},
-			"NT126": {
+			"NT125": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
-                        "rwy": "26",
+                        "rwy": "25",
                         "initial": 3000,
                         "prio": 1
                     }

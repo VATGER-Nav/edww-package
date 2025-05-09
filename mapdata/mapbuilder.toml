@@ -3,32 +3,32 @@
 [data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.eddh]
 type = "aixm"
 #source = "aixm:dfs:0:EDDH AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDH_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDH_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.eddv]
 type = "aixm"
 #source = "aixm:dfs:0:EDDV AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDV_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDV_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.edhi]
 type = "aixm"
 #source = "aixm:dfs:0:EDHI AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHI_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHI_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.edhl]
 type = "aixm"
 #source = "aixm:dfs:0:EDHL AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHL_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHL_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.edve]
 type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDVE_AerodromeMapping_2025-03-20_2025-04-17_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDVE_AerodromeMapping_2025-04-17_2025-05-15_revision.zip"
 
 [data.edah_kml]
 type = "kml"

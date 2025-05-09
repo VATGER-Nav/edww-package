@@ -20,12 +20,14 @@
                     "1": {
                         "rwy": "07",
                         "equip": {"NON-RNAV": true},
+                        "climbvia": true,
                         "prio": 1
                     }
                 },
                 "K": {
                     "1": {
                         "rwy": "25",
+                        "climbvia": true,
                         "prio": 1
                     }
                 },
@@ -33,6 +35,7 @@
                     "1": {
                         "rwy": "25",
                         "equip": {"NON-RNAV": true},
+                        "climbvia": true,
                         "prio": 1
                     }
                 }
@@ -61,24 +64,10 @@
                         "prio": 1
                     }
                 },
-                "J": {
-                    "1": {
-                        "rwy": "07",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
-                    }
-                },
                 "K": {
                     "1": {
                         "rwy": "25",
                         "climbvia": true,
-                        "prio": 1
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "25",
-                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 }

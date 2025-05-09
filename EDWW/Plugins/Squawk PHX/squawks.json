@@ -326,6 +326,11 @@
          "color":"#00dc00"
       },
       {
+         "code":"7601",
+         "message":"RCV",
+         "color":"#E11919"
+      },
+      {
          "range": {
             "start": "7740",
             "end": "7747"

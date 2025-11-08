@@ -50,16 +50,16 @@
                 "C": {
                     "1": {
                         "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2
                     }
                 },
                 "K": {
                     "1": {
                         "rwy": "26",
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "climbvia": true,
-                        "prio": 1
+                        "prio": 2
                     }
                 },
                 "T": {

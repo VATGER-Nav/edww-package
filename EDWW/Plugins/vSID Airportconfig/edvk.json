@@ -96,7 +96,7 @@
                     "1": {
                         "rwy": "09",
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 },
@@ -104,7 +104,7 @@
                     "1": {
                         "rwy": "27",
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 }

@@ -3,13 +3,13 @@
     "timelines": {
         "EDDB 24R/24L": {
             "targetFixes": [ "UBURU", "XANIM" ],
-            "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
+            "viaFixes": [ "DB433", "DB471" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },
         "EDDB 06L/06R": {
             "targetFixes": [ "ODIDO", "TEBGO" ],
-            "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
+            "viaFixes": [ "DB531", "DB572" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },

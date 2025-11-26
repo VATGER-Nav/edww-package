@@ -4,6 +4,7 @@
         "runways": "06L,06R,24L,24R",
         "transAlt": 5000,
         "maxInitialClimb": 8000,
+        "intersections": {"06L": "L1,L2,L3,L4,K1,K2", "06R": "M1,M2,M3,M5", "24L": "M9,M8,M7,M6,M4", "24R": "L8,L7,L6,L5,K6,K4,K3"},
 		"appSI": "FLG,BOR,MAR,MRZ,WC",
 		"timezone": "Europe/Berlin",
         "sids": {

@@ -4,6 +4,7 @@
         "runways": "33,23,15,05",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
+        "intersections": {"05": "D1,D3,D4,D6", "15": "E1,E3", "23": "A1,A3,A4,A6,D8,D6", "33": "B1,B4,B5,B6,G,A6,D1,D9,E4"},
 		"appSI": "HEI,ALR,WW,WC",
         "timezone": "Europe/Berlin",
         "sids": {

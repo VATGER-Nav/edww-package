@@ -5,6 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "appSI": "HAN,HRZ,EMS,WW,WC",
+        "intersections": {"08": "E,D", "26": "A,B"},
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,
@@ -12,7 +13,7 @@
                 "U": {
                     "1": {
                         "rwy": "08",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "climbvia": true,
                         "prio": 1
                     }
                 },
@@ -24,7 +25,7 @@
                 }
 			},
 			"BATEL": {
-                "equip": {"RNAV": true, "NON-RNAV": true},
+                "climbvia": true,
                 "U": {
                     "1": {
                         "rwy": "08",
@@ -39,55 +40,69 @@
                 }
 			},
 			"HLZ": {
-                "equip": {"RNAV": true, "NON-RNAV": true},
                 "U": {
                     "1": {
                         "rwy": "08",
+                        "equip": {"RNAV": true},
+                        "climbvia": true,
                         "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "climbvia": true,
+                        "prio": 2
                     }
                 },
                 "T": {
                     "1": {
                         "rwy": "26",
+                        "equip": {"RNAV": true},
+                        "climbvia": true,
                         "prio": 1
                     }
                 }
 			},
 			"POVEL": {
+                "climbvia": true,
                 "U": {
                     "1": {
                         "rwy": "08",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "W": {
                     "1": {
                         "rwy": "26",
-                        "climbvia": true,
                         "prio": 1
                     }
                 }
 			},
 			"NORTA": {
+                "climbvia": true,
                 "U": {
                     "1": {
                         "rwy": "08",
-                        "climbvia": true,
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "T": {
                     "1": {
                         "rwy": "26",
-                        "climbvia": true,
                         "prio": 1
                     }
                 }
 			},
-			"DLE": {
-                "equip": {"RNAV": true, "NON-RNAV": true},
+			"SAS": {
                 "U": {
                     "1": {
                         "rwy": "08",

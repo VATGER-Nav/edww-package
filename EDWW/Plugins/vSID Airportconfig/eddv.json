@@ -5,29 +5,28 @@
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "customRules" : {"low":false},
+        "intersections": {"09L": "G,H,J,K", "09R": "E,D", "27L": "A,B", "27R": "M,N,L"},
 		"appSI": "HAN,HRZ,EMS,WW,WC",
         "timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,
             "CEL": {
+				"climbvia": true,
                 "Y": {
                     "1": {
                         "rwy": "09L",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 },
                 "G": {
                     "1": {
                         "rwy": "09R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1,
                         "wtc": "LM",
                         "customRule": "low"
                     },
                     "2": {
                         "rwy": "09R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 3
                     }
                 },
@@ -51,60 +50,13 @@
                     },
                     "2": {
                         "rwy": "27L",
-                        "prio": 4
-                    }
-                }
-            },
-			"MULDO": {
-                "Y": {
-                    "1": {
-                        "rwy": "09L",
-                        "prio": 3
-                    },
-                    "2": {
-                        "rwy": "09L",
-                        "prio": 1,
-                        "wtc": "HJ"
-                    }
-                },
-                "G": {
-                    "1": {
-                        "rwy": "09R",
-                        "prio": 2
-                    }
-                },
-                "S": {
-                    "1": {
-                        "rwy": "27R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 3
-                    },
-                    "2": {
-                        "rwy": "27R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 1,
-                        "area": "gat"
-                    }
-                },
-                "F": {
-                    "1": {
-                        "rwy": "27L",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 2,
-                        "wtc": "LM",
-                        "customRule": "low"
-                        
-                    },
-                    "2": {
-                        "rwy": "27L",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 4
                     }
                 }
             },
 			"NIE": {
-                "equip": {"RNAV": true, "NON-RNAV": true},
                 "Y": {
+					"climbvia": true,
                     "1": {
                         "rwy": "09L",
                         "prio": 2
@@ -148,6 +100,7 @@
             },
 			"POVEL": {
                 "Y": {
+					"climbvia": true,
                     "1": {
                         "rwy": "09L",
                         "prio": 3
@@ -167,18 +120,15 @@
                 "S": {
                     "1": {
                         "rwy": "27R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1,
                         "wtc": "HJ"
                     },
                     "2": {
                         "rwy": "27R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 3
                     },
                     "3": {
                         "rwy": "27R",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1,
                         "area": "gat"
                     }
@@ -186,12 +136,12 @@
                 "F": {
                     "1": {
                         "rwy": "27L",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 }
             },
 			"VAXEV": {
+				"climbvia": true,
                 "Y": {
                     "1": {
                         "rwy": "09L",
@@ -233,48 +183,98 @@
                     }
                 }
             },
-			"WERRA": {
+			"NORTA": {
+				"climbvia": true,
                 "Y": {
                     "1": {
                         "rwy": "09L",
-                        "prio": 3
+                        "prio": 5
                     },
-                    "2": {
+					"2": {
+                        "rwy": "09L",
+                        "prio": 6,
+						"wpt": "TOLTA",
+						"sidHighlight": true
+                    },
+                    "3": {
                         "rwy": "09L",
                         "prio": 1,
                         "wtc": "HJ"
+					},
+                    "4": {
+                        "rwy": "09L",
+                        "prio": 2,
+                        "wtc": "HJ",
+						"wpt": "TOLTA",
+						"sidHighlight": true
                     }
                 },
                 "G": {
                     "1": {
                         "rwy": "09R",
-                        "prio": 2
+                        "prio": 3
+					},
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 4,
+						"wpt": "TOLTA",
+						"sidHighlight": true
                     }
-                },
+                }
+            },
+			"TOLTA": {
+				"climbvia": true,
                 "S": {
                     "1": {
                         "rwy": "27R",
                         "prio": 1,
                         "wtc": "HJ"
                     },
-                    "2": {
+					"2": {
                         "rwy": "27R",
-                        "prio": 3
+                        "prio": 2,
+                        "wtc": "HJ",
+						"wpt": "NORTA",
+						"sidHighlight": true
                     },
                     "3": {
                         "rwy": "27R",
+                        "prio": 5
+                    },
+					"4": {
+                        "rwy": "27R",
+                        "prio": 6,
+						"wpt": "NORTA",
+						"sidHighlight": true
+                    },
+                    "5": {
+                        "rwy": "27R",
                         "prio": 1,
                         "area": "gat"
+					},
+                    "6": {
+                        "rwy": "27R",
+                        "prio": 2,
+                        "area": "gat",
+						"wpt": "NORTA",
+						"sidHighlight": true
                     }
                 },
                 "F": {
                     "1": {
                         "rwy": "27L",
-                        "prio": 2
+                        "prio": 3
+                    },
+					"2": {
+                        "rwy": "27L",
+                        "prio": 4,
+						"wpt": "NORTA",
+						"sidHighlight": true
                     }
                 }
             },
-			"WRB": {
+			"EDDV": {
+				"equip": {"NON-RNAV": true},
                 "Y": {
                     "1": {
                         "rwy": "09L",

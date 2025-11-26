@@ -18,3 +18,5 @@ Color_Text_Notes=25,25,25
 Color_AppPath_Background=211,211,211
 Color_AppPath_Fill_V=129,148,168
 Color_AppPath_Track=10,10,10
+
+Maps_URL=https://raw.githubusercontent.com/VATGER-Nav/edww-package/refs/heads/main/EDWW/Plugins/Ground%20Radar%20Plugin%20BRIGHT/GRpluginMaps.txt

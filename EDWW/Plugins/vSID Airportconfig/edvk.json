@@ -5,6 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "appSI": "HRZ,EMS,WW,WC",
+        "intersections": {"09": "E", "27": "A,B"},
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 5000,
@@ -96,7 +97,7 @@
                     "1": {
                         "rwy": "09",
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 },
@@ -104,7 +105,7 @@
                     "1": {
                         "rwy": "27",
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 2
                     }
                 }

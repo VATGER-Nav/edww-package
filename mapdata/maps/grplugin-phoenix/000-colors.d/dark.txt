@@ -1,3 +1,5 @@
+// File automatically updated after each start-up.
+
 COLORDEF:runway:78:78:78
 COLORDEF:runway-marking:150:150:150
 COLORDEF:asphalt:35:35:35

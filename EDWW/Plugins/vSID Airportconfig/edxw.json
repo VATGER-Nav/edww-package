@@ -4,7 +4,8 @@
         "runways": "14,32",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "EIDE,ALR,EIDW,WC",
+        "appSI": "EID,ALR,WW,WC",
+        "intersections": {"14": "D,C", "32": "A,B"},
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,

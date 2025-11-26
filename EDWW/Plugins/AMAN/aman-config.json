@@ -1,24 +1,18 @@
 {
     "openAutomatically": false,
     "timelines": {
-        "EDDB 24": {
-            "targetFixes": [ "DB433", "DB471" ],
-            "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
+        "EDDB 24R/24L": {
+            "targetFixes": [ "UBURU", "XANIM" ],
+            "viaFixes": [ "DB433", "DB471" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },
-        "EDDB 06": {
-            "targetFixes": [ "DB533", "DB572" ],
-            "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
+        "EDDB 06L/06R": {
+            "targetFixes": [ "ODIDO", "TEBGO" ],
+            "viaFixes": [ "DB531", "DB572" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },
-        "EDDB 06 DCT": {
-            "targetFixes": [ "DB542", "DB552" ],
-            "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
-            "tagLayout": "myLayout",
-            "destinationAirports": [ "EDDB" ]
-	},
         "EDDH 05": {
             "targetFixes": [ "DH213", "DH231" ],
             "viaFixes": [ "RIBSO", "BOGMU", "RARUP", "NOLGO" ],

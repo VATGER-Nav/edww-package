@@ -5,6 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "appSI": "HEI,ALR,WW,WC",
+        "intersections": {"07": "A,B", "25": "C"},
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 5000,

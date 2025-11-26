@@ -23,7 +23,7 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:1:I:0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0:IASsure:0:1:::1
 TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:1:11:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
@@ -47,7 +47,7 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:1:I:0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0:IASsure:0:1:::1
 TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:2:11:1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:62:7:Squawk Message/Warning:0:1:TopSky plugin::1
@@ -65,7 +65,7 @@ TAGITEM:71::0:1:62:32:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:69::0:1:2:58:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:10061::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:15::0:0:650:12:TopSky plugin:0:1:VCH:TopSky plugin:1
+TAGITEM:15::0:0:745:12:TopSky plugin:0:1:vSID:TopSky plugin:1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:40::0:1:15:14:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:47::0:1:15:71:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
@@ -77,27 +77,33 @@ TAGITEM:2::0:1:1:0:Ground Radar plugin:0:1:Ground Radar plugin::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:272::0:0:17:0:TopSky plugin:0:1:::1
 TAGITEM:164::0:1:19:1:TopSky plugin:0:1::Ground Radar plugin:1
-TAGITEM:641::0:1:650:0:VCH:0:1:VCH::1
+TAGITEM:646::0:1:745:0:vSID:0:1:vSID::1
 TAGTYPE:3:0:0
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::1
-TAGTYPE:4:8:1
-TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::1
+TAGTYPE:4:11:1
+TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
+TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
 TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:190::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:191::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:191::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:192::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:276::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::6
+TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:9::1:0:0:0::0:1:::9
-TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::9
+TAGITEM:121::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:4::0:0:0:0::0:1:::1
-TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:15::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::8
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:641::0:0:0:0:VCH:0:1:::1
-TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:1:I:0:0:0:0::0:1:::1
+TAGITEM:3::0:0:0:0:IASsure:0:1:::1
+TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:5:0:0
 TAGITEM:1::1:0:0:0::0:0:::1
 TAGTYPE:6:6:1
@@ -143,8 +149,30 @@ TAGITEM:106::1:0:6:28:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:4::0:0:0:0::0:1:::1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
-TAGTYPE:16:0:0
+TAGTYPE:16:11:1
+TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
+TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
+TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:190::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:191::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:192::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:276::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::6
+TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:9::1:0:0:0::0:1:::9
+TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::9
+TAGITEM:121::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:0::0:0:0:0::0:1:::1
+TAGITEM:15::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::8
+TAGITEM:0::0:0:0:0::0:1:::1
+TAGITEM:1:I:0:0:0:0::0:1:::1
+TAGITEM:3::0:0:0:0:IASsure:0:1:::1
+TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:17:11:1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:62:7:Squawk Message/Warning:0:1:TopSky plugin::1
@@ -162,7 +190,7 @@ TAGITEM:71::0:1:62:32:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:69::0:1:2:58:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:10061::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:15::0:0:650:12:TopSky plugin:0:1:VCH:TopSky plugin:1
+TAGITEM:15::0:0:745:12:TopSky plugin:0:1:vSID:TopSky plugin:1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:40::0:1:15:14:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:47::0:1:15:71:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
@@ -174,7 +202,7 @@ TAGITEM:2::0:1:1:0:Ground Radar plugin:0:1:Ground Radar plugin::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:272::0:0:17:0:TopSky plugin:0:1:::1
 TAGITEM:164::0:1:19:1:TopSky plugin:0:1::Ground Radar plugin:1
-TAGITEM:641::0:1:650:0:VCH:0:1:VCH::1
+TAGITEM:646::0:1:745:0:vSID:0:1:vSID::1
 TAGTYPE:18:0:0
 TAGITEM:1::1:0:0:0::0:0:::1
 TAGTYPE:19:0:0
@@ -223,7 +251,7 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:1:I:0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0:IASsure:0:1:::1
 TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:1:11:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
@@ -247,7 +275,7 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:1:I:0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0:IASsure:0:1:::1
 TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:2:11:1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:62:7:Squawk Message/Warning:0:1:TopSky plugin::1
@@ -265,7 +293,7 @@ TAGITEM:71::0:1:62:32:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:69::0:1:2:58:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:10061::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:15::0:0:650:11:TopSky plugin:0:1:VCH::1
+TAGITEM:15::0:0:745:11:TopSky plugin:0:1:vSID::1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:40::0:1:12:14:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:47::0:1:12:71:TopSky plugin:0:1::TopSky plugin:1
@@ -278,27 +306,33 @@ TAGITEM:25::0:1:14:14::0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:272::0:0:17:0:TopSky plugin:0:1:::1
 TAGITEM:164::0:1:19:1:TopSky plugin:0:1::Ground Radar plugin:1
-TAGITEM:641::0:1:650:0:VCH:0:1:VCH::1
+TAGITEM:646::0:1:745:0:vSID:0:1:vSID::1
 TAGTYPE:3:0:0
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::1
-TAGTYPE:4:8:1
-TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::1
+TAGTYPE:4:11:1
+TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
+TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
 TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:190::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:191::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:191::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:192::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:276::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::6
+TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:9::1:0:0:0::0:1:::9
-TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::9
+TAGITEM:121::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:4::0:0:0:0::0:1:::1
-TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:15::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::8
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:641::0:0:0:0:VCH:0:1:::1
-TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:1:I:0:0:0:0::0:1:::1
+TAGITEM:3::0:0:0:0:IASsure:0:1:::1
+TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:5:0:0
 TAGITEM:1::1:0:0:0::0:0:::1
 TAGTYPE:6:6:1
@@ -344,8 +378,30 @@ TAGITEM:106::1:0:6:28:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:4::0:0:0:0::0:1:::1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
-TAGTYPE:16:0:0
+TAGTYPE:16:11:1
+TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
+TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::0
+TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:190::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:191::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:192::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:276::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:58::0:1:0:0:TopSky plugin:0:1:::6
+TAGITEM:38::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:9::1:0:0:0::0:1:::9
+TAGITEM:118::0:1:0:0:TopSky plugin:0:1:::9
+TAGITEM:121::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:0::0:0:0:0::0:1:::1
+TAGITEM:15::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::0
+TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::8
+TAGITEM:0::0:0:0:0::0:1:::1
+TAGITEM:1:I:0:0:0:0::0:1:::1
+TAGITEM:3::0:0:0:0:IASsure:0:1:::1
+TAGITEM:115::0:1:0:0:TopSky plugin:0:1:::1
+TAGITEM:646::0:1:0:0:vSID:0:1:::1
 TAGTYPE:17:11:1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:1::0:0:62:7:Squawk Message/Warning:0:1:TopSky plugin::1
@@ -363,7 +419,7 @@ TAGITEM:71::0:1:62:32:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:69::0:1:2:58:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:10061::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:15::0:0:650:11:TopSky plugin:0:1:VCH::1
+TAGITEM:15::0:0:745:11:TopSky plugin:0:1:vSID::1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:40::0:1:12:14:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:47::0:1:12:71:TopSky plugin:0:1::TopSky plugin:1
@@ -376,7 +432,7 @@ TAGITEM:25::0:1:14:14::0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:272::0:0:17:0:TopSky plugin:0:1:::1
 TAGITEM:164::0:1:19:1:TopSky plugin:0:1::Ground Radar plugin:1
-TAGITEM:641::0:1:650:0:VCH:0:1:VCH::1
+TAGITEM:646::0:1:745:0:vSID:0:1:vSID::1
 TAGTYPE:18:0:0
 TAGITEM:1::1:0:0:0::0:0:::1
 TAGTYPE:19:0:0

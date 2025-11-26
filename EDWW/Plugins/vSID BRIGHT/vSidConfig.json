@@ -140,7 +140,7 @@
         "showRequestOn": "Ground Radar display",
         "enableRequest":  false,
         "showIntIndicatorOn": "Ground Radar display",
-        "enableIntIndicator": false,
+        "enableIntIndicator": true,
         "indicatorOffset": 20,
         "indicatorZoomScale": 0.5,
         "indicatorShowBelowZoom": 600

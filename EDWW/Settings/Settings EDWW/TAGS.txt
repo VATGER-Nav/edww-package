@@ -24,7 +24,7 @@ TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
 TAGITEM:210::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:226::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:207::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:6461::0:1:0:0:vSID:0:1:::1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::0
@@ -63,7 +63,7 @@ TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
 TAGITEM:210::0:1:7:7:TopSky plugin:0:1:::1
 TAGITEM:226::0:1:7:7:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:207::0:1:5:0:TopSky plugin:0:1:TopSky plugin::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:6461::0:1:0:0:vSID:0:1:::1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:22::1:0:6:8:TopSky plugin:0:1:TopSky plugin::0
@@ -73,7 +73,7 @@ TAGITEM:106::0:1:62:62:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:66::0:1:20:42:TopSky plugin:0:1::TopSky plugin:4
 TAGITEM:40::0:1:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:10013::0:0:0:650:TopSky plugin:0:1::VCH:1
+TAGITEM:10013::0:0:0:7451:TopSky plugin:0:1::vSID:1
 TAGITEM:10027::0:0:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:131::0:0:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:43::0:1:44:11:TopSky plugin:0:1:TopSky plugin::1
@@ -322,7 +322,7 @@ TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
 TAGITEM:210::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:226::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:207::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:6461::0:1:0:0:vSID:0:1:::1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::0
@@ -361,7 +361,7 @@ TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
 TAGITEM:210::0:1:7:7:TopSky plugin:0:1:::1
 TAGITEM:226::0:1:7:7:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:207::0:1:5:0:TopSky plugin:0:1:TopSky plugin::1
-TAGITEM:641::0:1:0:0:VCH:0:1:::1
+TAGITEM:6461::0:1:0:0:vSID:0:1:::1
 TAGITEM:78::0:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:22::1:0:6:8:TopSky plugin:0:1:TopSky plugin::0
@@ -371,7 +371,7 @@ TAGITEM:106::0:1:62:62:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:66::0:1:20:42:TopSky plugin:0:1::TopSky plugin:4
 TAGITEM:40::0:1:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:10013::0:0:0:650:TopSky plugin:0:1::VCH:1
+TAGITEM:10013::0:0:0:7451:TopSky plugin:0:1::vSID:1
 TAGITEM:10027::0:0:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:131::0:0:97:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:43::0:1:44:11:TopSky plugin:0:1:TopSky plugin::1

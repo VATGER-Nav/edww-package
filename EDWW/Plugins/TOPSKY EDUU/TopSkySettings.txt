@@ -3,6 +3,10 @@ HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
 HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/edxx.txt
 
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
+
 Setup_COOPANS=1
 RwyAppLines_Auto=0
 

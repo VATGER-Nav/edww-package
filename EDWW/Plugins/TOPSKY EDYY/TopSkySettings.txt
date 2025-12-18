@@ -172,7 +172,9 @@ FlightLeg_Label_RFL=1
 FlightLeg_Label_SCFL=1
 FlightLeg_LineWidth=0
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
 HTTP_SIGMET_Server=http://aviationweather.gov/
 
 Label_AHDG_Point_Label=0

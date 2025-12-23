@@ -201,6 +201,7 @@ Color_Weather_Map
 Color_West_NAT_Map
 
 CPDLC_MinLevel=285
+CPDLC_AutoAcceptLogon_Time=15
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1

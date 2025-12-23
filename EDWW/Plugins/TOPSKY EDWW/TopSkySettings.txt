@@ -129,7 +129,9 @@ Color_WM_Bg=0,180,180
 Color_WM_Border=0,180,180
 Color_WM_Fg=0,0,0
 
-CPDLC_MinLevel=285
+CPDLC_AutoAcceptLogon=1
+CPDLC_AutoAcceptLogon_Time=15
+CPDLC_MinLevel=245
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
@@ -350,6 +352,7 @@ RDF_Mode=1
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
+CPDLC_MinLevel=285
 
 [EDWW_E]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
@@ -366,16 +369,19 @@ RDF_Mode=1
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
+CPDLC_MinLevel=285
 
 [EDWW_K]
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
+CPDLC_MinLevel=285
 
 [EDWW_F]
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
+CPDLC_MinLevel=285
 
 [EDWW_S]
 Shortcut_Map_Xfr_Key=7,0x44 ; D

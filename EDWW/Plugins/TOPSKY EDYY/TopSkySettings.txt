@@ -142,6 +142,7 @@ Color_WM_Fg=165,165,165
 Color_WM_Frame=0,0,50
 
 CPDLC_MinLevel=245
+CPDLC_AutoAcceptLogon_Time=15
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1

@@ -55,8 +55,8 @@
                 }
             },
 			"NIE": {
+				"climbvia": true,
                 "Y": {
-					"climbvia": true,
                     "1": {
                         "rwy": "09L",
                         "prio": 2
@@ -99,8 +99,8 @@
                 }
             },
 			"POVEL": {
+				"climbvia": true,
                 "Y": {
-					"climbvia": true,
                     "1": {
                         "rwy": "09L",
                         "prio": 3
@@ -215,7 +215,7 @@
                         "prio": 3
 					},
                     "2": {
-                        "rwy": "09L",
+                        "rwy": "09R",
                         "prio": 4,
 						"wpt": "TOLTA",
 						"sidHighlight": true

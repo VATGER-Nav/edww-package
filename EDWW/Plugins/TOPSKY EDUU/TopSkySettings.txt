@@ -3,6 +3,10 @@ HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
 HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/edxx.txt
 
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
+
 Setup_COOPANS=1
 RwyAppLines_Auto=0
 
@@ -197,6 +201,7 @@ Color_Weather_Map
 Color_West_NAT_Map
 
 CPDLC_MinLevel=285
+CPDLC_AutoAcceptLogon_Time=15
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1

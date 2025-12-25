@@ -142,6 +142,7 @@ Color_WM_Fg=165,165,165
 Color_WM_Frame=0,0,50
 
 CPDLC_MinLevel=245
+CPDLC_AutoAcceptLogon_Time=15
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
@@ -172,7 +173,9 @@ FlightLeg_Label_RFL=1
 FlightLeg_Label_SCFL=1
 FlightLeg_LineWidth=0
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
 HTTP_SIGMET_Server=http://aviationweather.gov/
 
 Label_AHDG_Point_Label=0

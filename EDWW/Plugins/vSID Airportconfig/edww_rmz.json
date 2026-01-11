@@ -4,7 +4,7 @@
         "runways": "05,23",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "DBDN,DBAN,FLG,BOR,MAR,MRZ,WC",
+        "appSI": "DBDN,DBAN,FLG,BOR,MAR,WC",
         "sids": {
             "RENKI": {
                 "A": {
@@ -31,7 +31,7 @@
         "runways": "07,25",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "DBDS,DBAS,FLG,BOR,MAR,MRZ,WC",
+        "appSI": "DBDS,DBAS,FLG,BOR,MAR,WC",
         "sids": {
             "BOLBO": {
                 "A": {
@@ -58,7 +58,7 @@
         "runways": "07,25",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "BOR,MAR,FLG,MRZ,WC",
+        "appSI": "BOR,FLG,MAR,WC",
         "sids": {
             "ABGUS": {
                 "L": {
@@ -121,7 +121,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "MRZ,MAR,BOR,WC",
+        "appSI": "MRZ,MAR,WC",
         "sids": {
             "GASBO": {
                 "P": {
@@ -166,7 +166,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "BOR,MAR,FLG,MRZ,WC",
+        "appSI": "BOR,FLG,MAR,WC",
         "sids": {
             "BUREL": {
                 "G": {
@@ -239,7 +239,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
-        "appSI": "MRZ,MAR,BOR,WC",
+        "appSI": "MRZ,MAR,WC",
         "sids": {
             "GEVNI": {
                 "U": {

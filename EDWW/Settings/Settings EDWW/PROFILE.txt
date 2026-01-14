@@ -71,7 +71,7 @@ PROFILE:EDDB_S_DEP:150:5
 ATIS2:Callsign BREMEN RADAR
 ATIS3:Berlin Departure South Sector - Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDH_HAM_APP:150:5
+PROFILE:EDDH_APP:150:5
 ATIS2:Callsign BREMEN RADAR - PDC/DCL EDDH
 ATIS3:Hamburg Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
@@ -83,7 +83,7 @@ PROFILE:EDDH_A_APP:150:5
 ATIS2:Callsign HAMBURG ARRIVAL
 ATIS3:REPORT ONLY CALLSIGN - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDV_HAN_APP:150:5
+PROFILE:EDDV_APP:150:5
 ATIS2:Callsign BREMEN RADAR - PDC/DCL EDDV
 ATIS3:Hannover Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
@@ -91,7 +91,7 @@ PROFILE:EDDV_A_APP:150:5
 ATIS2:Callsign HANNOVER ARRIVAL
 ATIS3:REPORT ONLY CALLSIGN - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDW_FRI_APP:150:5
+PROFILE:EDDW_APP:150:5
 ATIS2:Callsign BREMEN RADAR
 ATIS3:Friesland Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de

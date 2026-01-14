@@ -338,64 +338,64 @@ Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
 RDF_Mode=1
 
-[EDWW_CTR]
+{WC}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS BIG
 
-[EDWW_A]
+{ALR}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
 RDF_Mode=1
 
-[EDWW_B]
+{BOR}
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 CPDLC_MinLevel=285
 
-[EDWW_E]
+{EID}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
 
-[EDWW_H]
+{HEI}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
 RDF_Mode=1
 
-[EDWW_M]
+{MRZ}
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 CPDLC_MinLevel=285
 
-[EDWW_K]
+{MAR}
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 CPDLC_MinLevel=285
 
-[EDWW_F]
+{FLG}
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 CPDLC_MinLevel=285
 
-[EDWW_S]
+{EMS}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
 RDF_Mode=1
 
-[EDWW_R]
+{HRZ}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
 RDF_Mode=1
 
-[EDWW_W]
+{WW}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS WEST
 CPDLC_MinLevel=245

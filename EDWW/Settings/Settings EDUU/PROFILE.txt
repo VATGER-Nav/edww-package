@@ -3,15 +3,15 @@ PROFILE:%%_OBS:100:0
 ATIS2:
 ATIS3:
 ATIS4:
-PROFILE:EDUU_O_CTR:300:6
+PROFILE:EDUU_O12_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDUO
 ATIS3:Ostsee Sector - Check sector coverage at vatsim-radar.com/vg
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDUU_H_CTR:300:6
+PROFILE:EDUU_H12_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDUH
 ATIS3:Havel Sector - Check sector coverage at vatsim-radar.com/vg
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDUU_OH_CTR:300:6
+PROFILE:EDUU_O22_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDU2
 ATIS3:Ostsee Sector - Check sector coverage at vatsim-radar.com/vg
 ATIS4:Submit your feedback at feedback.vatger.de

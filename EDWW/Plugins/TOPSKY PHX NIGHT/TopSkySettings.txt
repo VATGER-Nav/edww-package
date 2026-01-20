@@ -201,7 +201,6 @@ Label_Rev_Highlight_Delta_ETN=0
 Label_Alt_Digits=3
 Label_GS_Digits=2
 Label_WTC_Highlight_WTC=LHJ
-Label_WTC_Highlight_ATYP=B752,B753
 
 Label_AHDG_ShowExtra=1
 

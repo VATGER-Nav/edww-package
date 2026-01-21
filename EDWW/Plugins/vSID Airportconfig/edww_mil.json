@@ -4,7 +4,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "MRZ,MAR,BOR,WC",
+		"appSI": "MRZ,MAR,WC",
         "sids": {
             "initial": 4000,
             "GASBO": {
@@ -369,7 +369,7 @@
         "runways": "09,27",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
-		"appSI": "DBAS,DBAN,FLG,BOR,MAR,MRZ,WC",
+		"appSI": "DBAS,DBAN,FLG,BOR,MAR,WC",
         "sids": {
             "SH10": {
                 "1": {

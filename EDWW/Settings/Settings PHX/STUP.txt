@@ -19,6 +19,7 @@ m_Column:W:2:1:10032:104:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:V:2:1:10031:0:0:1:TopSky plugin:::0:0.0
 m_Column:ADES:5:1:17:7:1001:1:::TopSky plugin:0:0.0
 m_Column:RWY:4:1:642:743:17:1:vSID:vSID::0:0.0
+m_Column:INT:4:1:649:750:749:0:vSID:vSID:vSID:0:0.0
 m_Column:SID:9:1:641:741:742:1:vSID:vSID:vSID:0:0.0
 m_Column:CLMB:5:1:640:740:109:1:vSID:vSID:TopSky plugin:0:0.0
 m_Column:RFL:5:1:22:30:59:0:::TopSky plugin:0:0.0

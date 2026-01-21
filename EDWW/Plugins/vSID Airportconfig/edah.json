@@ -6,7 +6,7 @@
         "maxInitialClimb": 7000,
         "intersections": {"10": "A,B,E", "28": "D,F"},
 		"timezone": "Europe/Berlin",
-		"appSI": "MRZ,MAR,BOR,WC",
+		"appSI": "MRZ,MAR,WC",
         "sids": {
             "initial": 5000,
             "climbvia": true,

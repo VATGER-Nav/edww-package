@@ -178,22 +178,22 @@
         "maxInitialClimb": 27000,
 		"appSI": "FRI,EID,ALR,WW,WC",
         "sids": {
-            "NT10": {
-                "1": {
+            "ETNT": {
+                "E": {
                     "1": {
                         "wpt": "XXX",
                         "rwy": "07",
-                        "initial": 3000,
+                        "initial": 2500,
                         "prio": 1
                     }
                 }
 			},
 			"NT12": {
-                "1": {
+                "W": {
                     "1": {
                         "wpt": "XXX",
                         "rwy": "25",
-                        "initial": 3000,
+                        "initial": 2500,
                         "prio": 1
                     }
                 }

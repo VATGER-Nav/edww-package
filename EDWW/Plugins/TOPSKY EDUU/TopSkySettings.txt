@@ -32,6 +32,16 @@ APW_Buffer_Vert_U=1799
 APW_Buffer_Vert_L_IFR=799
 APW_Buffer_Vert_L_IFR=799
 
+BlindSpot=1
+BlindSpot_Level_Range=100
+BlindSpot_Time_Warning=400
+
+Color_BS_Aged=200,200,192
+Color_BS_Crossed_Level=255,130,71
+Color_BS_No_Conflict=0,170,0
+Color_BS_Unknown=200,200,192
+Color_BS_Warning=255,25,26
+
 Color_ACF_Via_CFL
 Color_AIW_Intrusion=160,140,0
 Color_Active_Map=80,80,255

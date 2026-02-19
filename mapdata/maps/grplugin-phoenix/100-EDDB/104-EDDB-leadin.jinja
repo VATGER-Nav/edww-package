@@ -54,7 +54,7 @@ STYLE:solid
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
-{% for stand in ['GL_APR_50', 'GL_APR_51', 'GL_APR_52', 'GL_APR_53', 'GL_APR_54', 'GL_APR_55', 'GL_APR_57', 'GL_APR_59', 'GL_APR_60'] %}
+{% for stand in ['GL_APR_50', 'GL_APR_51', 'GL_APR_52', 'GL_APR_53', 'GL_APR_54', 'GL_APR_55', 'GL_APR_57', 'GL_APR_59', 'GL_APR_60', 'GL_APR_62', 'GL_APR_63'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 

@@ -31,7 +31,6 @@ Areas_PreActiveTime=900
 Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
-BlindSpot=1
 BlindSpot_Level_Range=100
 BlindSpot_Time_Warning=400
 
@@ -323,6 +322,7 @@ Window_CARD=1,1525,788
 Window_PredTfc=1,1,48,200,200
 Window_SepList=225,48
 Label_WTC_Default=0000
+BlindSpot=1
 
 [_APP]
 MTCD=0

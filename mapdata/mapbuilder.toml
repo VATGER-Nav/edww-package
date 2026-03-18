@@ -3,7 +3,7 @@
 [data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2026-02-19_2026-02-19_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2026-02-19_2026-02-19_snapshot.zip"
 
 [data.eddh]
 type = "aixm"

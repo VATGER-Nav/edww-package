@@ -27,7 +27,7 @@ Color_TSW_Background=24,24,24
 
 Maps_URL=https://raw.githubusercontent.com/VATGER-Nav/edww-package/refs/heads/main/EDWW/Plugins/Ground%20Radar%20Plugin%20DARK/GRpluginMaps.txt
 
-System_State_OnFreq=WT
+System_State_OnFreq=FRQ
 System_State_DeIce=IC
 System_State_Push=PB
 System_State_Taxi_Out=TX

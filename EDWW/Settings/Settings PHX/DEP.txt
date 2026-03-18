@@ -9,9 +9,9 @@ m_HeaderOnly:0
 m_Column:TIMER:5:1:645:0:0:0:vSID:::0:0.0
 m_Column:REQ:5:1:644:744:0:1:vSID:vSID::0:0.0
 m_Column:CALLSIGN:10:0:9:6:143:1::TopSky plugin:TopSky plugin:0:0.0
-m_Column:TOBT:5:1:4:114:121:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
-m_Column:TSAT:5:1:2:0:123:0:CDM Plugin::CDM Plugin:0:0.0
-m_Column:CTOT:5:1:10:108:127:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TOBT:5:1:22:114:154:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TSAT:5:1:2:106:137:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:CTOT:5:1:10:108:127:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:STAND:6:1:1:0:0:1:Ground Radar plugin:::0:0.0
 m_Column:ATYP:5:1:16:2:32:1::TopSky plugin::0:0.0
 m_Column:W:2:1:10032:104:0:1:TopSky plugin:TopSky plugin::0:0.0

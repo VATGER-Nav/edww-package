@@ -103,6 +103,10 @@ PROFILE:ETHC_APP:150:5
 ATIS2:Callsign CELLE RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:COVERING ETHC,ETHS
+PROFILE:ETHC_P_APP:150:5
+ATIS2:Callsign CELLE PRESICION
+ATIS3:For PAR Approach only! No readback of instructions required!
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETHS_APP:150:5
 ATIS2:Callsign FASSBERG RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
@@ -143,10 +147,18 @@ PROFILE:ETNW_APP:150:5
 ATIS2:Callsign WUNSTORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:COVERING ETNW,ETHB
+PROFILE:ETNW_P_APP:150:5
+ATIS2:Callsign WUNSTORF PRESICION
+ATIS3:For PAR Approach only! No readback of instructions required!
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETSH_APP:150:5
 ATIS2:Callsign HOLZDORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
+PROFILE:ETSH_P_APP:150:5
+ATIS2:Callsign HOLZDORF PRESICION
+ATIS3:For PAR Approach only! No readback of instructions required!
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETXX_SR_CTR:150:5
 ATIS2:Callsign SUNRISE
 ATIS3:Submit your feedback at feedback.vatger.de

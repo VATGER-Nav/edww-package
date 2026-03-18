@@ -1,4 +1,4 @@
-System_State_OnFreq=WT
+System_State_OnFreq=FRQ
 System_State_DeIce=IC
 System_State_Push=PB
 System_State_Taxi_Out=TX

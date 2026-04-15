@@ -5,31 +5,31 @@ ATIS3:
 ATIS4:
 PROFILE:EDDB_N_TWR:50:4
 ATIS2:Callsign BERLIN TOWER - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_S_TWR:50:4
 ATIS2:Callsign BERLIN TOWER - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_DEL:10:2
 ATIS2:Callsign BERLIN DELIVERY - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_A_GND:20:3
 ATIS2:Callsign BERLIN APRON - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_E_GND:20:3
 ATIS2:Callsign BERLIN APRON - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_N_GND:20:3
 ATIS2:Callsign BERLIN GROUND - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_S_GND:20:3
 ATIS2:Callsign BERLIN GROUND - PDC/DCL Logon EDDB
-ATIS3:Airport Briefing vats.im/eddb
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_ICE_GND:20:3
 ATIS2:Callsign BERLIN DE-ICING - PDC/DCL Logon EDDB
@@ -37,76 +37,76 @@ ATIS3:Airport Briefing vats.im/eddb
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_TWR:50:4
 ATIS2:Callsign HAMBURG TOWER - PDC/DCL Logon EDDH
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_VFR_TWR:50:4
 ATIS2:Callsign HAMBURG TOWER - PDC/DCL Logon EDDH
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_E_GND:20:3
 ATIS2:Callsign HAMBURG APRON - PDC/DCL Logon EDDH
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_W_GND:20:3
 ATIS2:Callsign HAMBURG APRON - PDC/DCL Logon EDDH
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDH_DEL:20:2
 ATIS2:Callsign HAMBURG GROUND - PDC/DCL Logon EDDH
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDV_TWR:50:4
 ATIS2:Callsign HANNOVER TOWER - PDC/DCL Logon EDDV
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDV_GND:20:3
 ATIS2:Callsign HANNOVER GROUND - PDC/DCL Logon EDDV
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDV_DEL:20:2
 ATIS2:Callsign HANNOVER DELIVERY - PDC/DCL Logon EDDV
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDW_TWR:50:4
 ATIS2:Callsign BREMEN TOWER
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDW_GND:20:3
 ATIS2:Callsign BREMEN GROUND
-ATIS3:Airport Briefing vats.im/edww
+ATIS3:Submit TOBT and check slot at vats.im/VDGS - Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDAH_TWR:50:4
 ATIS2:HERINGSDORF TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDXW_TWR:50:4
 ATIS2:SYLT TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDHI_TWR:50:4
 ATIS2:FINKENWERDER TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDHL_TWR:50:4
 ATIS2:LUEBECK TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDHL_GND:20:3
 ATIS2:Callsign LUEBECK GROUND
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDVE_TWR:50:4
 ATIS2:BRAUNSCHWEIG TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDVK_TWR:50:4
 ATIS2:KASSEL TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDVK_GND:20:3
 ATIS2:Callsign KASSEL GROUND
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETHB_TWR:50:4
 ATIS2:BUCKEBURG TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
@@ -129,12 +129,12 @@ ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:ETNL_TWR:50:4
 ATIS2:LAAGE TOWER
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNL_A_GND:20:3
 ATIS2:LAAGE APRON
-ATIS3:Submit your feedback at feedback.vatger.de
-ATIS4:
+ATIS3:Check slot (CTOT) at vats.im/VDGS
+ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNS_TWR:50:4
 ATIS2:SCHLESWIG TOWER
 ATIS3:Submit your feedback at feedback.vatger.de

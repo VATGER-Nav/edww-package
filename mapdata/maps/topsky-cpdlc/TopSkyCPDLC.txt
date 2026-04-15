@@ -1,6 +1,6 @@
 [DCL]
 // ****************** REQ STARTUP ON OWN FREQ ****************** 
-DCL:EDDB,EDDH,EDDV:SID:CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobtMDI> NEXT FREQUENCY <freq_own> <atis> <startup_own> <rmk>
+DCL:EDDB,EDDH,EDDV:SID:CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> ADT <aobtMDI> NEXT FREQUENCY <freq_own> <atis> <startup_own> <rmk> SUBMIT YOUR TOBT AT vats.im/VDGS 
 
 
 [FREETEXT]

@@ -104,7 +104,7 @@ ATIS2:Callsign CELLE RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:COVERING ETHC,ETHS
 PROFILE:ETHC_P_APP:150:5
-ATIS2:Callsign CELLE PRESICION
+ATIS2:Callsign CELLE PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETHS_APP:150:5
@@ -120,7 +120,7 @@ ATIS2:Callsign HOHN RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:ETNH_P_APP:150:5
-ATIS2:Callsign HOHN PRESICION
+ATIS2:Callsign HOHN PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNL_APP:150:5
@@ -128,7 +128,7 @@ ATIS2:Callsign LAAGE RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:ETNL_P_APP:150:5
-ATIS2:Callsign LAAGE PRESICION
+ATIS2:Callsign LAAGE PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNS_APP:150:5
@@ -136,7 +136,7 @@ ATIS2:Callsign SCHLESWIG RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:COVERING ETNS,ETNH
 PROFILE:ETNS_P_APP:150:5
-ATIS2:Callsign SCHLESWIG PRESICION
+ATIS2:Callsign SCHLESWIG PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETNT_APP:150:5
@@ -148,7 +148,7 @@ ATIS2:Callsign WUNSTORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:COVERING ETNW,ETHB
 PROFILE:ETNW_P_APP:150:5
-ATIS2:Callsign WUNSTORF PRESICION
+ATIS2:Callsign WUNSTORF PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETSH_APP:150:5
@@ -156,7 +156,7 @@ ATIS2:Callsign HOLZDORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:ETSH_P_APP:150:5
-ATIS2:Callsign HOLZDORF PRESICION
+ATIS2:Callsign HOLZDORF PRECISION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:ETXX_SR_CTR:150:5
@@ -170,5 +170,9 @@ ATIS4:
 PROFILE:ETXX_TRA_CTR:150:5
 ATIS2:Callsign BREMEN MONITOR
 ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:EDWW_FMP:150:5
+ATIS2:Bremen Flow Management Position
+ATIS3:
 ATIS4:
 END

@@ -171,4 +171,8 @@ PROFILE:ETXX_TRA_CTR:150:5
 ATIS2:Callsign BREMEN MONITOR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
+PROFILE:EDWW_FMP:150:5
+ATIS2:Bremen Flow Management Position
+ATIS3:
+ATIS4:
 END

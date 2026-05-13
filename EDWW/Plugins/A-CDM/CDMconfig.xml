@@ -28,4 +28,5 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
 </CDM>

@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <CDM>
-	<rate ops="50" />
-	<rateLvo ops="30" />
+	<rate ops="30" />
+	<rateLvo ops="15" />
 	<expiredCtot time="25" />
-	<realMode mode="false" />
+	<realMode mode="true" />
 	<bmi mode="false" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="false" />
-	<invalidateAtTsat mode="true" />
+	<invalidateAtTsat mode="asrt" />
 	<invalidateAtTobt mode="false" />
 	<readySetTsac mode="true" />
 	<Rates url="" />
 	<Taxizones url="" />
-	<Ctot url="" />
+	<Slots url="" />
 	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<DeIceRemTaxi rem1Name= "REM1" rem1="10" rem2Name= "REM2" rem2="10" rem3Name= "REM3" rem3="10" rem4Name= "REM4" rem4="10" rem5Name= "REM5" rem5="10"/>
-	<eventModeMin time="5" />
+	<eventModeMin time="7" />
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
 	<FlowRestrictions url="" />
@@ -28,5 +28,11 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
-	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "true"/>
+	<reqTobtPriority mode="true" />
+	<eventPriority mode="true" />
+	<autoSetTobtFromEvSlot mode="false" />
+	<remarksOptionCtot mode="true" />
+	<PrivateMessage text="[CDM MSG] PLEASE REPORT YOUR TOBT (TARGET OFF-BLOCK TIME) AT https://vats.im/vdgs AND REPORT READY ACCORDING TSAT. [END OF CDM MSG]" />
+	<loading text="...." />
 </CDM>

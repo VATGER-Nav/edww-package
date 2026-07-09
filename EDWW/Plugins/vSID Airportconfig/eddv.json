@@ -183,93 +183,86 @@
                     }
                 }
             },
-			"NORTA": {
+			"WERRA": {
 				"climbvia": true,
                 "Y": {
                     "1": {
                         "rwy": "09L",
-                        "prio": 5
+                        "prio": 3
                     },
-					"2": {
-                        "rwy": "09L",
-                        "prio": 6,
-						"wpt": "TOLTA",
-						"sidHighlight": true
-                    },
-                    "3": {
+                    "2": {
                         "rwy": "09L",
                         "prio": 1,
                         "wtc": "HJ"
-					},
-                    "4": {
-                        "rwy": "09L",
-                        "prio": 2,
-                        "wtc": "HJ",
-						"wpt": "TOLTA",
-						"sidHighlight": true
                     }
                 },
                 "G": {
                     "1": {
                         "rwy": "09R",
-                        "prio": 3
-					},
-                    "2": {
-                        "rwy": "09R",
-                        "prio": 4,
-						"wpt": "TOLTA",
-						"sidHighlight": true
+                        "prio": 2
                     }
-                }
-            },
-			"TOLTA": {
-				"climbvia": true,
+                },
                 "S": {
                     "1": {
                         "rwy": "27R",
                         "prio": 1,
                         "wtc": "HJ"
                     },
-					"2": {
+                    "2": {
                         "rwy": "27R",
-                        "prio": 2,
-                        "wtc": "HJ",
-						"wpt": "NORTA",
-						"sidHighlight": true
+                        "prio": 3
                     },
                     "3": {
                         "rwy": "27R",
-                        "prio": 5
-                    },
-					"4": {
-                        "rwy": "27R",
-                        "prio": 6,
-						"wpt": "NORTA",
-						"sidHighlight": true
-                    },
-                    "5": {
-                        "rwy": "27R",
                         "prio": 1,
                         "area": "gat"
-					},
-                    "6": {
-                        "rwy": "27R",
-                        "prio": 2,
-                        "area": "gat",
-						"wpt": "NORTA",
-						"sidHighlight": true
                     }
                 },
                 "F": {
                     "1": {
                         "rwy": "27L",
+                        "prio": 2
+                    }
+                }
+            },			"TOLTA": {
+				"climbvia": true,
+                "Y": {
+                    "1": {
+                        "rwy": "09L",
                         "prio": 3
                     },
-					"2": {
+                    "2": {
+                        "rwy": "09L",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "09R",
+                        "prio": 2
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    },
+                    "2": {
+                        "rwy": "27R",
+                        "prio": 3
+                    },
+                    "3": {
+                        "rwy": "27R",
+                        "prio": 1,
+                        "area": "gat"
+                    }
+                },
+                "F": {
+                    "1": {
                         "rwy": "27L",
-                        "prio": 4,
-						"wpt": "NORTA",
-						"sidHighlight": true
+                        "prio": 2
                     }
                 }
             },

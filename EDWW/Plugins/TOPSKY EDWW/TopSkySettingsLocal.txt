@@ -1,8 +1,5 @@
 //You can add personal settings here so they won't get overwritten by data updates from GNG.
 
-//Remove "//" in front of this setting to use the RDF function on every station.
-//RDF_Mode=1
-
 //Remove "//" in front of this setting to use gray sector lines
 //Color_Active_Map_Type_2=110,90,80
 

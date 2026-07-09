@@ -245,4 +245,5 @@ CCAMS:ACList/Mode S EHS/m_Column_0:C/S:8:0:9:7:0:1:::
 CCAMS:ACList/Mode S EHS/m_Column_1:HDG:5:1:502:0:0:1:CCAMS::
 CCAMS:ACList/Mode S EHS/m_Column_2:Roll:5:1:503:0:0:1:CCAMS::
 CCAMS:ACList/Mode S EHS/m_Column_3:GS:4:1:504:0:0:1:CCAMS::
+RDF Plugin for Euroscope:EnableDraw:0
 END

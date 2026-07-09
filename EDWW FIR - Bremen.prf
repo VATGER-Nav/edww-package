@@ -7,9 +7,9 @@ ASRFastKeys	6	\EDWW\ASR\EDXW-GND.asr
 ASRFastKeys	7	\EDWW\ASR\EDHL-GND.asr
 ASRFastKeys	8	\EDWW\ASR\EDVK-GND.asr
 ASRFastKeys	9	\EDWW\ASR\EDAH-GND.asr
-Plugins	Plugin0	\EDWW\Plugins\AfvEuroScopeBridge.dll
-Plugins	Plugin0Display0	Standard ES radar screen
-Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin0	\EDWW\Plugins\RDFPlugin.dll
+Plugins	Plugin0Display0	Ground Radar display
+Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin1	\EDWW\Plugins\TOPSKY EDWW\TopSky.dll
 Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen

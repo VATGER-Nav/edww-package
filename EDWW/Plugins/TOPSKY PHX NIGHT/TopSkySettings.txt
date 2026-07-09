@@ -134,6 +134,9 @@ Divergence_RAM=0
 CPDLC_PlaySound=1
 CPDLC_PDC_PlaySound=1
 CPDLC_AutoAcceptLogon=1
+CPDLC_FSM_Header=FSM <hour><min> <year2><month2><day> <adep2><cr/lf>
+CPDLC_CLD_Header=CLD <hour><min> <year2><month2><day> <adep2> PDC <number><cr/lf>
+CPDLC_FSM_CDA=<callsign> CDA RECEIVED<cr/lf>@CLEARANCE CONFIRMED<cr/lf><cr/lf>REQ STARTUP ACC TSAT ON <freq_own>
 
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=0

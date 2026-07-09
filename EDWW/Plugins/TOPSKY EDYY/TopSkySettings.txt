@@ -234,9 +234,7 @@ MTCD_DeAcknowledge=5
 MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
-RDF_Mode=1
-RDF_Accuracy=0
-RDF_Floor=-999
+RDF_Mode=-1
 
 RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1.0

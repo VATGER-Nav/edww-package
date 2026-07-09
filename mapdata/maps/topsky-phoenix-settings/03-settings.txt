@@ -163,9 +163,7 @@ APW_Buffer_Vert_L_VFR=0
 
 FlightLeg_FontSize=10
 
-RDF_Mode=0
-RDF_Floor=0
-RDF_Accuracy=0
+RDF_Mode=-1
 
 STCA_Sep_Lat_SepLevel=24500
 STCA_Floor=2000

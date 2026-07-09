@@ -1,7 +1,7 @@
 ASRFastKeys	1	\EDWW\ASR\EDUU-CTR.asr
-Plugins	Plugin0	\EDWW\Plugins\AfvEuroScopeBridge.dll
-Plugins	Plugin0Display0	Standard ES radar screen
-Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin0	\EDWW\Plugins\RDFPlugin.dll
+Plugins	Plugin0Display0	Ground Radar display
+Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin1	\EDWW\Plugins\TOPSKY EDUU\TopSky.dll
 Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen

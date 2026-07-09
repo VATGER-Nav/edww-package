@@ -32,12 +32,6 @@ Setup_AutoSignIn=1
 
 //END SCALING
 
-//Activate RDF
-//RDF_Mode=2
-//RDF_Floor=0
-//RDF_Accuracy_Degrees=0.0
-//RDF_Accuracy=0.0
-
 //Profile for 4K-Screens
 //[_CTR]
 //Window_CPDLC_Current=3,1940,165

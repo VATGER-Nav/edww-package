@@ -217,9 +217,7 @@ MTCD_DeAcknowledge=5
 MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
-RDF_Mode=0
-RDF_Accuracy=0
-RDF_Floor=-999
+RDF_Mode=-1
 
 RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1.0
@@ -341,12 +339,10 @@ Track_PredictionLine=1
 [EDDH_]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDH
-RDF_Mode=1
 
 [EDDV_]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
-RDF_Mode=1
 
 {WC}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
@@ -356,7 +352,6 @@ Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS BIG
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
-RDF_Mode=1
 
 {BOR}
 Track_PredictionLine=1
@@ -373,7 +368,6 @@ CPDLC_MinLevel=245
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
-RDF_Mode=1
 
 {MRZ}
 Track_PredictionLine=1
@@ -397,19 +391,16 @@ CPDLC_MinLevel=285
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
-RDF_Mode=1
 
 {HRZ}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
-RDF_Mode=1
 
 {WW}
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS WEST
 CPDLC_MinLevel=245
-RDF_Mode=1
 
 [_FMP]
 Track_PredictionLine=0

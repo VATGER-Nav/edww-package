@@ -164,4 +164,5 @@ TopSky plugin:ACList/Sector List/m_Column_8:SI:5:0:10014:20:42:1:TopSky plugin::
 VCH:vch_ctl_t:1
 VCH:vch_ctl:20.000000
 VCH:vch_blink:0
+RDF Plugin for Euroscope:EnableDraw:0
 END

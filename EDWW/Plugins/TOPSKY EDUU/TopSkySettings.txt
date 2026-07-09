@@ -299,8 +299,7 @@ MTCD_DeAcknowledge=5
 MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
-RDF_Accuracy=0
-RDF_Floor=-999
+RDF_Mode=-1
 
 Shortcut_RadarMenu_Combo=0x00
 Shortcut_RadarMenu=0x00

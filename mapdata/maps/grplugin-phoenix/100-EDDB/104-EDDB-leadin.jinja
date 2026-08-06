@@ -6,50 +6,59 @@ COLOR:leadin
 STYLE:solid
 
 // Apron A
-{% for stand in ['A01', 'A02', 'A03', 'A04', 'A05', 'A06', 'A07', 'A08', 'A09', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18'] %}
+{% for stand in ['GL_APR_A01', 'GL_APR_A02', 'GL_APR_A03', 'GL_APR_A04', 'GL_APR_A05', 'GL_APR_A06', 'GL_APR_A07', 'GL_APR_A08', 'GL_APR_A09', 
+    'GL_APR_A10', 'GL_APR_A11', 'GL_APR_A12', 'GL_APR_A13', 'GL_APR_A14', 'GL_APR_A15', 'GL_APR_A16', 'GL_APR_A17', 'GL_APR_A18'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron B
-{% for stand in ['B01', 'B01A', 'B02', 'B03', 'B03A', 'B04', 'B05', 'B05A', 'B06', 'B07', 'B07A', 'B07B', 'B08', 'B09', 'B09A', 'B10', 'B11', 'B11A', 'B12', 'B13', 'B13A', 'B14', 'B15', 'B15A', 'B15B', 'B16'] %}
+{% for stand in ['GL_APR_B01', 'GL_APR_B01A', 'GL_APR_B02', 'GL_APR_B03', 'GL_APR_B03A', 'GL_APR_B04', 'GL_APR_B05', 'GL_APR_B05A', 'GL_APR_B06',
+    'GL_APR_B07', 'GL_APR_B07A', 'GL_APR_B07B', 'GL_APR_B08', 'GL_APR_B09', 'GL_APR_B09A', 'GL_APR_B10', 'GL_APR_B11', 'GL_APR_B11A', 'GL_APR_B12',
+    'GL_APR_B13', 'GL_APR_B13A', 'GL_APR_B14', 'GL_APR_B15', 'GL_APR_B15A', 'GL_APR_B15B', 'GL_APR_B16'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron C
-{% for stand in ['C01', 'C02', 'C03', 'C04', 'C05', 'C05A', 'C06', 'C07', 'C07A', 'C08', 'C09', 'C09A', 'C10', 'C11', 'C11A', 'C12', 'C13', 'C14', 'C14A', 'C15'] %}
+{% for stand in ['GL_APR_C01', 'GL_APR_C02', 'GL_APR_C03', 'GL_APR_C04', 'GL_APR_C05', 'GL_APR_C05A', 'GL_APR_C06', 'GL_APR_C07', 'GL_APR_C07A',
+    'GL_APR_C08', 'GL_APR_C09', 'GL_APR_C09A', 'GL_APR_C10', 'GL_APR_C11', 'GL_APR_C11A', 'GL_APR_C12', 'GL_APR_C13', 'GL_APR_C14', 'GL_APR_C14A', 'GL_APR_C15'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron D
-{% for stand in ['D01', 'D02', 'D03', 'D03A', 'D04', 'D05', 'D05A', 'D05B', 'D06', 'D07', 'D07A', 'D08', 'D09', 'D09A', 'D10', 'D11', 'D11A', 'D12', 'D13', 'D13A', 'D13B', 'D14', 'D15', 'D15A', 'D16', 'D17', 'D17A', 'D18', 'D19', 'D19A', 'D20', 'D21', 'D21A', 'D22'] %}
+{% for stand in ['GL_APR_D01', 'GL_APR_D02', 'GL_APR_D03', 'GL_APR_D03A', 'GL_APR_D04', 'GL_APR_D05', 'GL_APR_D05A', 'GL_APR_D05B', 'GL_APR_D06', 'GL_APR_D07',
+    'GL_APR_D07A', 'GL_APR_D08', 'GL_APR_D09', 'GL_APR_D09A', 'GL_APR_D10', 'GL_APR_D11', 'GL_APR_D11A', 'GL_APR_D12', 'GL_APR_D13', 'GL_APR_D13A', 'GL_APR_D13B',
+    'GL_APR_D14', 'GL_APR_D15', 'GL_APR_D15A', 'GL_APR_D16', 'GL_APR_D17', 'GL_APR_D17A', 'GL_APR_D18', 'GL_APR_D19', 'GL_APR_D19A', 'GL_APR_D20', 'GL_APR_D21',
+    'GL_APR_D21A', 'GL_APR_D22'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron E WEST
-{% for stand in ['E01', 'E02', 'E03', 'E04', 'E05', 'E06', 'E07', 'E08', 'E09', 'E10', 'E11', 'E12', 'E13', 'E14', 'E15', 'E16', 'E17', 'E18', 'E19'] %}
+{% for stand in ['GL_APR_E01', 'GL_APR_E02', 'GL_APR_E03', 'GL_APR_E04', 'GL_APR_E05', 'GL_APR_E06', 'GL_APR_E07', 'GL_APR_E08', 'GL_APR_E09',
+    'GL_APR_E10', 'GL_APR_E11', 'GL_APR_E12', 'GL_APR_E13', 'GL_APR_E14', 'GL_APR_E15', 'GL_APR_E16', 'GL_APR_E17', 'GL_APR_E18', 'GL_APR_E19'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron E EAST
-{% for stand in ['E21', 'E22', 'E23', 'E24', 'E25', 'E26', 'E27', 'E28', 'E29', 'E30', 'E31', 'E32', 'E33', 'E34', 'E35'] %}
+{% for stand in ['GL_APR_E21', 'GL_APR_E22', 'GL_APR_E23', 'GL_APR_E24', 'GL_APR_E25', 'GL_APR_E26', 'GL_APR_E27', 'GL_APR_E28', 'GL_APR_E29',
+    'GL_APR_E30', 'GL_APR_E31', 'GL_APR_E32', 'GL_APR_E33', 'GL_APR_E34', 'GL_APR_E35'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron 2
-{% for stand in ['19', '21', '22', '24', '25', '27', '28', '29', '30'] %}
+{% for stand in ['GL_APR_19', 'GL_APR_21', 'GL_APR_22', 'GL_APR_24', 'GL_APR_25', 'GL_APR_27', 'GL_APR_28', 'GL_APR_29', 'GL_APR_30'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron 3
-{% for stand in ['31', '32', '33', '34', '35', '36', '34A', '36A'] %}
+{% for stand in ['GL_APR_31', 'GL_APR_32', 'GL_APR_33', 'GL_APR_34', 'GL_APR_35', 'GL_APR_36', 'GL_APR_34A', 'GL_APR_36A'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
-{% for stand in ['50', '51', '52', '53', '54', '55', '57', '59', '60', '62', '63'] %}
+{% for stand in ['GL_APR_50', 'GL_APR_51', 'GL_APR_52', 'GL_APR_53', 'GL_APR_54', 'GL_APR_55', 'GL_APR_57', 'GL_APR_59', 'GL_APR_60', 'GL_APR_62', 'GL_APR_63'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
 // Apron 3b
-{% for stand in ['70', '71', '72', '73', '74'] %}
+{% for stand in ['GL_APR_70', 'GL_APR_71', 'GL_APR_72', 'GL_APR_73', 'GL_APR_74'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}

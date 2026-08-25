@@ -47,6 +47,6 @@ TEXT:N052.21.28.071:E013.29.52.048:PAD17
 TEXT:N052.23.07.007:E013.31.39.354:PAD NORTH 1
 
 {% set default = 0.000005 %}
-{% for stand in ['GL_APR_E_PAD03', 'GL_APR_E_PAD05', 'GL_APR_E_PAD07', 'GL_APR_E_PAD09', 'GL_APR_E_PAD11', 'GL_APR_E_PAD13', 'GL_APR_E_PAD15', 'GL_APR_E_PAD17', 'GL_DICE_APR_3B'] %}
+{% for stand in ['E_PAD03', 'E_PAD05', 'E_PAD07', 'E_PAD09', 'E_PAD11', 'E_PAD13', 'E_PAD15', 'E_PAD17'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}

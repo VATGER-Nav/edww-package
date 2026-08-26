@@ -77,7 +77,7 @@ COLOR:taxilane-yellow
 
 // Taxiways North of 06R/24L
 {{ data.eddb['GuidanceLineByDesig']['A'] | join_segments | simplify(default) | to_line('A') }}
-{{ data.eddb['GuidanceLineByDesig']['_B'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.eddb['GuidanceLineByDesig']['B'] | join_segments | simplify(default) | to_line('B') }}
 {{ data.eddb['GuidanceLineByDesig']['M1'] | join_segments | simplify(default) | to_line('M1') }}
 {{ data.eddb['GuidanceLineByDesig']['M2'] | join_segments | simplify(default) | to_line('M2') }}
 {{ data.eddb['GuidanceLineByDesig']['M3'] | join_segments | simplify(default) | to_line('M3') }}

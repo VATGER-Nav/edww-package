@@ -29,7 +29,7 @@ Plugins	Plugin5Display1	Standard ES radar screen
 Plugins	Plugin6	\EDWW\Plugins\IASsure\IASsure.dll
 Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
-Plugins	Plugin7	\EDWW\Plugins\A-CDM\CDM.dll
+Plugins	Plugin7	\EDWW\Plugins\A-CDM DARK\CDM.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
 Settings	AselKey	5111808

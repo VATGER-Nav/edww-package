@@ -1,11 +1,11 @@
 {
     "EDDW": {
         "elevation": 14,
-        "runways": "09,27,23",
+        "runways": "08,26,23",
         "transAlt": 5000,
         "maxInitialClimb": 7000,
         "appSI": "FRI,EID,ALR,WW,WC",
-        "intersections": {"09": "A,C", "27": "F,E,D", "23": "D"},
+        "intersections": {"08": "A,C", "26": "F,E,D", "23": "D"},
 		"timezone": "Europe/Berlin",
         "sids": {
             "initial": 4000,

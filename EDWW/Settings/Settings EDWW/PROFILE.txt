@@ -36,7 +36,7 @@ ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWM (CPDLC above FL285 only!)
 ATIS3:Mueritz Sector - Check sector coverage at vatsim-radar.com/vg
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_HRZ_CTR:300:6
-ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWR (CPDLC above FL245 only!)
+ATIS2:Callsign BREMEN RADAR
 ATIS3:Harz Sector - Check sector coverage at vatsim-radar.com/vg
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_EMS_CTR:300:6

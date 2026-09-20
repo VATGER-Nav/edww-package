@@ -384,7 +384,7 @@ bearing = 272.6
 fap = [ 52.447168, 9.948191 ] # ODINI
 loc = [ 52.455125, 9.671625 ]
 
-[runways.EDDW.09]
+[runways.EDDW.08]
 thr = [ 53.046573, 8.774451 ]
 bearing = 87.84
 fap = [ 53.040488, 8.519732 ] # IBUTI
@@ -396,7 +396,7 @@ bearing = 232
 fap = [ ]
 loc = [ ]
 
-[runways.EDDW.27]
+[runways.EDDW.26]
 thr = [ 53.047263, 8.804848 ]
 bearing = 267.84
 fap = [ 53.052743, 9.059557 ] # ROGBO

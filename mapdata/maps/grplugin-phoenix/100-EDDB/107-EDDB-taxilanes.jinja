@@ -94,9 +94,6 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['06L/24R'] | join_segments | simplify(default) | to_line('06L/24R') }}
 {{ data.eddb['GuidanceLineByDesig']['06R/24L'] | join_segments | simplify(default) | to_line('06L/24R') }}
 
-// Helipad
-{{ data.eddb['GuidanceLineByDesig']['HELIPAD'] | join_segments | simplify(default) | to_line('HELIPAD') }}
-
 // Fixups
 //COLOR:taxilane-orange
 //{{ data.eddb['GuidanceLine']['efc911b0-a1f3-4648-aad2-761b167e9555'] | simplify(default) | to_line('P2 ORANGE') }}

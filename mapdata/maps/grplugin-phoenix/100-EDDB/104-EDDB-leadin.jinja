@@ -35,19 +35,10 @@ STYLE:solid
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
-// Apron 2
-//{% for stand in ['19', '21', '22', '24', '25', '27', '28', '29', '30'] %}
-//    {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
-//{% endfor %}
-
 // Apron 3
 {% for stand in ['33', '34', '35', '36', '34A', '36A'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
-
-//{% for stand in ['50', '51', '52', '53', '54', '55', '57', '59', '60', '62', '63'] %}
-//    {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
-//{% endfor %}
 
 // Apron 3b
 {% for stand in ['70', '71', '72', '73', '74'] %}

@@ -30,6 +30,8 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['V1'] | join_segments | simplify(default) | to_line('V1') }}
 {{ data.eddb['GuidanceLineByDesig']['VC'] | join_segments | simplify(default) | to_line('VC') }}
 {{ data.eddb['GuidanceLineByDesig']['V2'] | join_segments | simplify(default) | to_line('V2') }}
+{{ data.eddb['GuidanceLineByDesig']['V3'] | join_segments | simplify(default) | to_line('V3') }}
+{{ data.eddb['GuidanceLineByDesig']['V4'] | join_segments | simplify(default) | to_line('V4') }}
 
 // Apron A
 {{ data.eddb['GuidanceLineByDesig']['F'] | join_segments | simplify(default) | to_line('F') }}

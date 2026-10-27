@@ -1,0 +1,20 @@
+MAP:LVP
+AIRPORT:EDDW
+FOLDER:LVP
+ACTIVE:LVP:EDDW:1
+COLOR:lvp-marking
+STYLE:Solid:3
+// Localizer
+LINE:N053.02.46.342:E008.46.01.049:N053.02.47.804:E008.46.00.956
+LINE:N053.02.50.126:E008.48.45.944:N053.02.51.566:E008.48.45.850
+
+MAP:Holding Points CAT II/III
+AIRPORT:EDDW
+FOLDER:Holding Points
+ACTIVE:LVP:EDDW:1
+COLOR:holdingpoint
+STYLE:Solid:4
+
+{% for name, geom in data.eddw_kml['HP CATII/III'].items() %}
+    {{- geom | simplify(default) | to_line(name) -}}
+{% endfor %}

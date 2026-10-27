@@ -14,7 +14,7 @@ FOLDER:Holding Points
 ACTIVE:LVP:EDDW:1
 COLOR:holdingpoint
 STYLE:Solid:4
-
+{% set default = 0.000005 %}
 {% for name, geom in data.eddw_kml['HP CATII/III'].items() %}
     {{- geom | simplify(default) | to_line(name) -}}
 {% endfor %}

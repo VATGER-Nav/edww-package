@@ -15,5 +15,5 @@ ACTIVE:LVP:EDDV:1
 COLOR:holdingpoint
 STYLE:Solid:3
 {% for _, geom in data.eddv['TaxiHoldingPositionMarking'].items() if geom.style != 'OTHER:CAT_I' %}
-    {{- geom | to_poly(name, 'hp') }}
+    {{- geom | to_poly(name, 'holdingpoint') }}
 {% endfor %}

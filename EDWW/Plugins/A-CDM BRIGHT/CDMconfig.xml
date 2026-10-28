@@ -33,6 +33,12 @@
 	<eventPriority mode="true" />
 	<autoSetTobtFromEvSlot mode="false" />
 	<remarksOptionCtot mode="true" />
+	<disableTobtReqAfterAsrt mode="true" />
 	<PrivateMessage text="[CDM MSG] PLEASE REPORT YOUR TOBT (TARGET OFF-BLOCK TIME) AT https://vats.im/vdgs AND REPORT READY ACCORDING TSAT. [END OF CDM MSG]" />
 	<loading text="...." />
+	<nonCdmEarlyClearenceColor minutes="0" />
+	<AtfcmPrivateMessage
+		fls="[ATFCM MSG] OFF-BLOCK TIME EXPIRED - {CALLSIGN} ({EOBT} - {TOBT}). Please update your off-block time."
+        slot="[ATFCM MSG] SLOT ALLOCATION - {CALLSIGN} ({EOBT} - {TOBT}) CTOT:{CTOT} REGUL:{REGUL}. DO NOT DEPART EARLIER THAN CTOT -5 MINUTES. Please monitor https://vats.im/vdgs for updates. Note that following CoC B12 you are required to comply with this flow restriction. [END OF ATFCM MSG]"
+	/>
 </CDM>

@@ -30,6 +30,11 @@ type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVE_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
 
+[data.edvk]
+type = "aixm"
+#source = "aixm:dfs:0:EDVE AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVK_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+
 [data.edah_kml]
 type = "kml"
 source = "kml/EDAH.kml"

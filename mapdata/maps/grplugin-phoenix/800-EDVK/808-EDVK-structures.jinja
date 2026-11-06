@@ -1,8 +1,0 @@
-MAP:Buildings
-AIRPORT:EDVK
-FOLDER:Airport Layout
-ACTIVE:1
-
-{% for name, geom in data.edvk_kml['Vertical Structures'].items() %}
-    {{- geom | to_poly(name, 'building') }}
-{% endfor %}

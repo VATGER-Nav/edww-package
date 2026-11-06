@@ -1,0 +1,10 @@
+MAP:Leadin Lines
+AIRPORT:EDVK
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+{% set default = 0.000005 %}
+//APRON
+{{ data.edvk['GuidanceLineByDesig']['ROLLGASSE'] | join_segments | simplify(default) | to_line('ROLLGASSE') }}
+{{ data.edvk['GuidanceLineByDesig']['POSITION VL'] | join_segments | simplify(default) | to_line('PARKING') }}

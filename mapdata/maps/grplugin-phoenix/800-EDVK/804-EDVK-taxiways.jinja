@@ -2,7 +2,7 @@ MAP:Taxiway Movement Areas
 AIRPORT:EDVK
 FOLDER:Airport Layout
 ACTIVE:1
-
-{% for name, geom in data.edvk_kml['Taxiways'].items() %}
+COLOR:taxiway
+{% for name, geom in data.edvk['TaxiwayElement'].items() %}
     {{- geom | to_poly(name, 'taxiway') }}
 {% endfor %}

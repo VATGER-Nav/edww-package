@@ -1,0 +1,8 @@
+MAP:Runways
+AIRPORT:EDVK
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:runway
+{% for name, geom in data.edvk['RunwayElement'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}

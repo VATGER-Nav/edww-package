@@ -1,0 +1,26 @@
+MAP:Taxi Lanes
+AIRPORT:EDVK
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+
+COLOR:taxilane-yellow
+{{ data.edvk['GuidanceLineByDesig']['INTERSECTION B'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.edvk['GuidanceLineByDesig']['TWY B'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.edvk['GuidanceLineByDesig']['TWY BB'] | join_segments | simplify(default) | to_line('B') }}
+
+{{ data.edvk['GuidanceLineByDesig']['TWY C'] | join_segments | simplify(default) | to_line('C') }}
+
+{{ data.edvk['GuidanceLineByDesig']['TWY E'] | join_segments | simplify(default) | to_line('E') }}
+
+{{ data.edvk['GuidanceLineByDesig']['INTERSECTION E 2'] | join_segments | simplify(default) | to_line('E2') }}
+{{ data.edvk['GuidanceLineByDesig']['INTERSECTION E 3'] | join_segments | simplify(default) | to_line('E3') }}
+{{ data.edvk['GuidanceLineByDesig']['INTERSECTION E 4'] | join_segments | simplify(default) | to_line('E4') }}
+
+{{ data.edvk['GuidanceLineByDesig']['TWY L'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.edvk['GuidanceLineByDesig']['TWY L3'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.edvk['GuidanceLineByDesig']['TWY L_E'] | join_segments | simplify(default) | to_line('L') }}
+
+{{ data.edvk['GuidanceLineByDesig']['TURNPAD 09'] | join_segments | simplify(default) | to_line('TURNPAD 09') }}
+{{ data.edvk['GuidanceLineByDesig']['TURNPAD 27'] | join_segments | simplify(default) | to_line('TURNPAD 27') }}

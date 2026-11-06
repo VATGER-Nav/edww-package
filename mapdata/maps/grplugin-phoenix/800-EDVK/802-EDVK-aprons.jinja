@@ -2,7 +2,7 @@ MAP:Apron Movement Areas
 AIRPORT:EDVK
 FOLDER:Airport Layout
 ACTIVE:1
-
-{% for name, geom in data.edvk_kml['Aprons'].items() %}
+COLOR:apron
+{% for name, geom in data.edvk['ApronElement'].items() %}
     {{- geom | to_poly(name, 'apron') }}
 {% endfor %}

@@ -1,0 +1,8 @@
+MAP:Runway Markings
+AIRPORT:EDVK
+FOLDER:Runway Info
+ACTIVE:1
+COLOR:runway-marking
+{% for _, geom in data.edhl['RunwayMarking'].items() if geom.marking_location != 'OTHER:PRE_THR' %}
+    {{- geom | to_poly('rwy', 'runway-marking') }}
+{% endfor %}

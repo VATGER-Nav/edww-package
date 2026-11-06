@@ -7,6 +7,9 @@ STYLE:solid
 
 COLOR:taxilane-blue
 {{ data.edhi['GuidanceLineByDesig']['I-BLUE'] | join_segments | simplify(default) | to_line('I-BLUE') }}
+{{ data.edhi['GuidanceLineByDesig']['I-BLUE 1'] | join_segments | simplify(default) | to_line('I-BLUE') }}
+{{ data.edhi['GuidanceLineByDesig']['I-BLUE 2'] | join_segments | simplify(default) | to_line('I-BLUE') }}
+{{ data.edhi['GuidanceLineByDesig']['I-BLUE 3'] | join_segments | simplify(default) | to_line('I-BLUE') }}
 
 COLOR:taxilane-orange
 {{ data.edhi['GuidanceLineByDesig']['I-ORANGE'] | join_segments | simplify(default) | to_line('I-ORANGE') }}

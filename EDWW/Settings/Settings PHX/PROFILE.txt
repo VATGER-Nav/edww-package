@@ -164,7 +164,7 @@ ATIS2:COCHSTEDT INFORMATION
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:EDBH_I_TWR:50:4
-ATIS2:BARTH INFORMATION
+ATIS2:BARTH RADIO
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
 PROFILE:EDBM_I_TWR:50:4

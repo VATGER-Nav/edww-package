@@ -3,12 +3,12 @@
 [data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2026-11-26_2026-11-26_snapshot.zip"
 
 [data.eddh]
 type = "aixm"
 #source = "aixm:dfs:0:EDDH AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDH_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDH_AerodromeMapping_2026-11-26_2026-11-26_snapshot.zip"
 
 [data.eddv]
 type = "aixm"
@@ -18,12 +18,12 @@ source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aero
 [data.edhi]
 type = "aixm"
 #source = "aixm:dfs:0:EDHI AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2026-11-26_2026-11-26_snapshot.zip"
 
 [data.edhl]
 type = "aixm"
 #source = "aixm:dfs:0:EDHL AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2026-11-26_2026-11-26_snapshot.zip"
 
 [data.edve]
 type = "aixm"
@@ -33,7 +33,7 @@ source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aero
 [data.edvk]
 type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVK_AerodromeMapping_2026-10-29_2026-10-29_snapshot.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVK_AerodromeMapping_2026-11-26_2026-11-26_snapshot.zip"
 
 [data.edah_kml]
 type = "kml"

@@ -41,4 +41,6 @@
 		fls="[ATFCM MSG] OFF-BLOCK TIME EXPIRED - {CALLSIGN} ({EOBT} - {TOBT}). Please update your off-block time."
         slot="[ATFCM MSG] SLOT ALLOCATION - {CALLSIGN} ({EOBT} - {TOBT}) CTOT:{CTOT} REGUL:{REGUL}. DO NOT DEPART EARLIER THAN CTOT -5 MINUTES. Please monitor https://vats.im/vdgs for updates. Note that following CoC B12 you are required to comply with this flow restriction. [END OF ATFCM MSG]"
 	/>
+	<recalculateOnTobtUpdate mode="false" />
+	<runwayPressure minutes="-1" />
 </CDM>

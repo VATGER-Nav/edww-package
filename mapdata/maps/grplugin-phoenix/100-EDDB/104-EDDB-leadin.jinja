@@ -41,6 +41,6 @@ STYLE:solid
 {% endfor %}
 
 // Apron 3b
-{% for stand in ['70', '71', '72', '73', '74'] %}
+{% for stand in ['71', '73', '73A', '74'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
